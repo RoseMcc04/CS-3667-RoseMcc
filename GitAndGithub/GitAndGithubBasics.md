@@ -28,4 +28,4 @@ git <keyword> --help
 ```shell
 git init
 ```
-- To ignore certain files in git, we can type ```shelltouch .gitignore``` which creates a .gitignore file. This type of file allows us to add files for git to ignore. 
+- To ignore certain files in git, we can type ```touch .gitignore``` which creates a .gitignore file. This type of file allows us to add files for git to ignore. 
