@@ -67,4 +67,23 @@ git push origin master
     git branch <branch-name>
     git checkout <branch-name>
     ```
-
+    - Do normal adding and staging/committing
+    - Push branch changes to repository
+    ```shell
+    git push -u origin <branch-name>
+    ```
+- Merging a branch
+```shell
+git checkout master
+git pull origin master
+git branch --merged
+git merge <branch-name>
+git push origin master
+```
+- Deleting a branch
+```shell
+git branch --merged
+git branch -d <branch-name>
+git branch -a
+git push origin --delete <branch-name>
+```
