@@ -28,4 +28,43 @@ git <keyword> --help
 ```shell
 git init
 ```
-- To ignore certain files in git, we can type ```touch .gitignore``` which creates a .gitignore file. This type of file allows us to add files for git to ignore. 
+- To ignore certain files in git, we can type ```touch .gitignore``` which creates a .gitignore file. This type of file allows us to add files for git to ignore.
+
+## Stages: Working Directory, Staging Area, and .git directory (Repository)
+
+- Staging area allows us to pick and choose which files we want committed
+```shell
+git add.gitignore
+```
+Individually adds .gitignore file to the staging area, but can also be done with general files as well
+```shell
+git reset
+``` 
+Will allow us to take a file out of the staging area
+
+- Committing a file
+```shell
+git commit -m "specific message for file/code changes"
+```
+- Cloning a remote repository
+```shell
+git clone <url> <where to clone>
+```
+- Viewing information about the remote repository
+```shell
+git remove -v
+git branch -a
+```
+- Pushing changes
+```shell
+git diff
+git pull origin master
+git push origin master
+```
+- Common workflow
+    - Create a branch for a desired feature
+    ```shell
+    git branch <branch-name>
+    git checkout <branch-name>
+    ```
+
