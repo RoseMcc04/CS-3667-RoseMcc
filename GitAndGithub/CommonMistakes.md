@@ -42,7 +42,7 @@ git log
 git checkout <perferred-branch>
 # Checking commit history of the preferred branch
 git log
-git cherry-pick <6-7 length of hashCode identity>
+git cherry-pick <6-7 length of hash from original>
 # Show that commits have switched
 git log
 ```
@@ -52,5 +52,34 @@ git log
 - There are a few ways of resetting commits in Git. 
 
 ### Resetting Commits - Soft
+```shell
+git reset --soft <6-7 length of hash from original>
+# Files will be shown in staging area
+git status
+```
+
+### Resetting Commits - Mixed
+
+```shell
+git reset <6-7 length of hash from original>
+# The commit history (log) will be modified
+git log
+# Changes are not in the staging area, they are in the working
+# directory. 
+git status
+```
 
 ### Resetting Commits - Hard
+
+```shell
+git reset --hard <6-7 length of hash from original>
+# The commit history (log) will be modified
+git log
+# Reverts all tracked files back to staging area, leaves untracked
+# alone.
+git status 
+```
+
+## Getting Rid of Untracked Files
+
+We can get rid of untracked files to ease the process by ```git clean -df```. The 'd' stands for directories and the 'f' stands for files. 
