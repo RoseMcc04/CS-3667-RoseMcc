@@ -8,4 +8,4 @@ Course Description: This course covers the design and implementation of software
 - Software Products
 - Agile Methodologies
 - Scrum
-*More topics will be added later
+- *More topics will be added later
