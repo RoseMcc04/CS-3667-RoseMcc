@@ -21,3 +21,28 @@ git checkout <file-name>
 git commit -m "<wrong-message>"
 git commit --amend -m "<right-message>"
 ```
+
+## Accidentally Leaving Off a File
+
+- Sometimes, we forget to include a file or files in a commit. We will use a .gitignore as an example. We only do this if we have not pushed changes to other people. 
+```shell
+touch .gitignore
+git add .gitignore
+git commit --amend
+# Log command to show more specific changes
+git log --stat
+```
+
+## Committing to the Wrong Branch
+
+- Branching can be tricky at first and beginners often make mistakes. The following lines will allow us to switch changes to other branches.
+```shell
+# Used to determine which hashcode to cherrypick. 
+git log
+git checkout <perferred-branch>
+# Checking commit history of the preferred branch
+git log
+git cherry-pick <6-7 length of hashCode identity>
+# Show that commits have switched
+git log
+```
