@@ -82,4 +82,19 @@ git status
 
 ## Getting Rid of Untracked Files
 
-We can get rid of untracked files to ease the process by ```git clean -df```. The 'd' stands for directories and the 'f' stands for files. 
+- We can get rid of untracked files to ease the process by ```git clean -df```. The 'd' stands for directories and the 'f' stands for files. 
+
+## Reference Logs
+
+- Git logs references to other commits within commits in a branch or in a repository. 
+```shell
+git reflog
+```
+
+## Reverting Changes After Being Pulled By Others
+
+- Sometimes, we make the wrong commit, but we need to adjust for others pulling the code or text from said wrong commit. 
+
+```shell
+
+```
