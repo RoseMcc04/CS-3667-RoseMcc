@@ -46,3 +46,11 @@ git cherry-pick <6-7 length of hashCode identity>
 # Show that commits have switched
 git log
 ```
+
+## Resetting Commits
+
+- There are a few ways of resetting commits in Git. 
+
+### Resetting Commits - Soft
+
+### Resetting Commits - Hard
