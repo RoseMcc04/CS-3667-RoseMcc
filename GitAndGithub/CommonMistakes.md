@@ -96,5 +96,13 @@ git reflog
 - Sometimes, we make the wrong commit, but we need to adjust for others pulling the code or text from said wrong commit. 
 
 ```shell
+git revert <6-7 length of hash from original>
+```
 
+## Comparing Two Commits
+
+- In certain situations, we may have to compare commits with more thorough analysis based on the situation. 
+
+```shell
+git diff <6-7 length of hash from first> <6-7 length of hash from second>
 ```
