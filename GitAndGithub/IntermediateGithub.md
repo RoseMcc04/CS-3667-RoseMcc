@@ -4,6 +4,8 @@
 
 1. [Proper Way to Create a Pull Request](#Proper-Way-to-Create-a-Pull-Request)
 2. [How to Fix Conflicts](#How-to-Fix-Conflicts)
+    1. [Why do conflicts occur?](#why-do-conflicts-occur)
+    2. [How can we fix conflicts?](#how-can-we-fix-conflicts)
 3. [Rebase vs. Merge](#Rebase-vs.-Merge)
 4. [Modifying Existing Remote Branches](#Modifying-Existing-Remote-Branches)
 5. [Cherry Pick and Reset](#Cherry-Pick-and-Reset)
@@ -36,7 +38,11 @@ Step 5: The admin will review the reasoning inputted to the pull request and det
 
 ### How to Fix Conflicts
 
+1. Why do conflicts occur?
 
+- Conflicts can occur from the deletion of branches, a branch being behind main, or a multitude of other situations. 
+
+2. How can we fix conflicts?
 
 ### Rebase vs. Merge
 
