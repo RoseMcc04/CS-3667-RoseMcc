@@ -10,10 +10,30 @@
 
 ### Proper Way to Create a Pull Request
 
+With a team or a group of developers, you create a pull request to allow the user the request is for to revise their code and then push said code back into the repository. 
+
+Only the admin of the repository is allowed to push changes to main or master, which means that you have to push changes to a branch, allow the admin to create a pull request if necessary, and then merge the changes once everything is finalized. 
+
+Step 1: See which branch you are on. If you are not on the desired branch, switch to that branch. Make sure that the local repository is up to date with ```git pull``` or '''git pull origin <branch-name>'''. 
+```shell
+git branch
+git pull
+git checkout -b <branch-name>
+# Create file and perform changes
+git add <file-name>
+git commit -m "commit message"
+```
+
 ### How to Fix Conflicts
+
+
 
 ### Rebase vs. Merge
 
+
+
 ### Modifying Existing Remote Branches
+
+
 
 ### Cherry Pick and Reset
