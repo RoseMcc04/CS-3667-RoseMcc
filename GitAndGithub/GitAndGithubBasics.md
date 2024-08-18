@@ -1,5 +1,14 @@
 # Git and GitHub Fundamentals Notes
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Getting Help](#getting-help)
+3. [Initialization and Committing](#initialization-and-committing)
+4. [Stages: Working Directory, Staging Area, and .git directory (Repository)](#stages-working-directory-staging-area-and-git-directory-repository)
+
+## Introduction
+
 - Git is a distributed version control system, which means that   multiple machines can hold a local repository of the same project or server
 - Centralized version control can only be used in one place, which can make collaboration difficult
 - Git version:
