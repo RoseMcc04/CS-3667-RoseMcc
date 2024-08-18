@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-1. Proper Way to Create a Pull Request
-2. How to Fix Conflicts
-3. Rebase vs. Merge
-4. Modifying Existing Remote Branches
-5. Cherry Pick and Reset
+1. [Proper Way to Create a Pull Request](### Proper Way to Create a Pull Request)
+2. [How to Fix Conflicts](### Proper Way to Create a Pull Request)
+3. [Rebase vs. Merge](### Rebase vs. Merge)
+4. [Modifying Existing Remote Branches](### Modifying Existing Remote Branches)
+5. [Cherry Pick and Reset](### Cherry Pick and Reset)
