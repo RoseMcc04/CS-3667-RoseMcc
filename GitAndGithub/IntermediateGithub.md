@@ -70,7 +70,7 @@ git merge feature
 ```
 
 ```css
-        A---B---C feature
+         A---B---C feature
         /         \
 D---E---F---G------H main (merge commit)
 ```
