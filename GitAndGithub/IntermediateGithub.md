@@ -1,5 +1,7 @@
 # Intermediate Git and Github
 
+Video: [Intermediate Git and Github](https://youtu.be/7h6_aZZ_iNg) 
+
 ## Table of Contents
 
 1. [Proper Way to Create a Pull Request](#Proper-Way-to-Create-a-Pull-Request)
