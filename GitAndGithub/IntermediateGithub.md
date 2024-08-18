@@ -63,15 +63,18 @@ Git Merge:
 
     - Combines changes from one branch to another branch
     - Creates a new commit (merge commit) that ties the two branches together, preserving the history of both branches
+
     ```shell
     git checkout main
     git merge feature
     ```
+
     ```css
              A---B---C feature
             /         \
     D---E---F---G------H main (merge commit)
     ```
+
     - After merging, the history is kept and shows where the two branches diverged and where they merged
 
 ![Rebase vs. Merge Diagram](https://miro.medium.com/v2/resize:fit:1400/1*mQOZjM3wwL1UV-ydQYAJTg.png)
