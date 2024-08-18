@@ -105,6 +105,53 @@ D---E---F---A'---B'---C' feature
 
 ## Modifying Existing Remote Branches
 
+1. Renaming a Branch
+```shell
+# Locally
+git branch -m <new-branch-name>
+# Or rename another branch
+git branch -m <old-branch-name> <new-branch-name>
+# Push renamed branch to Github
+git push origin <new-branch-name>
+git push origin --delete <old-branch-name>
+``` 
 
+2. Deleting a Branch
+```shell
+git branch -d <branch-name>
+# Force delete if branch has not been merged
+git branch -D <branch-name>
+# Delete a branch from Github
+git push origin --delete <branch-name>
+```
 
-## Cherry Pick and Reset
+3. Rebasing a Branch
+```shell
+git checkout <specific-branch>
+git rebase main
+# If there are conflicts - Resolve conflicts
+git rebase --continue
+# Force push since repository was rewritten
+git push origin <specific-branch> --force
+```
+
+4. Force-Pushing Changes
+```shell
+git push origin <branch-name> --force
+```
+
+5. Resetting a Branch to a Specific Commit
+```shell
+# Reset branch to a specific commit
+git reset --hard commit-sha
+# Force push the reset branch to Github
+git push origin <branch-name> --force
+```
+
+6. Reverting Changes on a Branch
+```shell
+# Revert a specific commit
+git revert commit-sha
+# Push the revert commit to Github
+git push origin <branch-name>
+```
