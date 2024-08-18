@@ -77,6 +77,30 @@ D---E---F---G------H main (merge commit)
 
 - After merging, the history is kept and shows where the two branches diverged and where they merged
 
+Git Rebase:
+
+- Moves or combines a sequence of commits to a new base commit
+- Rewrites history by applying changes on top of another branch, creating a linear history
+
+```shell
+git checkout feature
+git rebase main
+# If there are any conflicts, the process will pause and allow for resolve manually. You can continue now. 
+git rebase --continue
+```
+
+```mathematica
+Before Rebase:
+D---E---F main
+         \
+          A---B---C feature
+
+After Rebase:
+D---E---F---A'---B'---C' feature
+```
+
+- After rebasing, the feature branch now appears as it was developed from the main branch without any divergence
+
 ![Rebase vs. Merge Diagram](https://miro.medium.com/v2/resize:fit:1400/1*mQOZjM3wwL1UV-ydQYAJTg.png)
 
 ## Modifying Existing Remote Branches
