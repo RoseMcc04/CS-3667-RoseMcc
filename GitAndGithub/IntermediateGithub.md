@@ -4,13 +4,11 @@
 
 1. [Proper Way to Create a Pull Request](#Proper-Way-to-Create-a-Pull-Request)
 2. [How to Fix Conflicts](#How-to-Fix-Conflicts)
-    1. [Why do conflicts occur?](#why-do-conflicts-occur)
-    2. [How can we fix conflicts?](#how-can-we-fix-conflicts)
 3. [Rebase vs. Merge](#Rebase-vs.-Merge)
 4. [Modifying Existing Remote Branches](#Modifying-Existing-Remote-Branches)
 5. [Cherry Pick and Reset](#Cherry-Pick-and-Reset)
 
-### Proper Way to Create a Pull Request
+## Proper Way to Create a Pull Request
 
 With a team or a group of developers, you create a pull request to allow the user the request is for to revise their code and then push said code back into the repository. 
 
@@ -36,7 +34,7 @@ Step 4: The user the pull request is for will click a button called "Compare & p
 
 Step 5: The admin will review the reasoning inputted to the pull request and determine if they will merge the pull request into the main/master branch or not. Sometimes, admin will request other uses or admin to review the pull request. 
 
-### How to Fix Conflicts
+## How to Fix Conflicts
 
 1. Why do conflicts occur?
 
@@ -44,12 +42,23 @@ Step 5: The admin will review the reasoning inputted to the pull request and det
 
 2. How can we fix conflicts?
 
-### Rebase vs. Merge
+    - We can update the new branch used in the conflict to the main branch. 
+    ```shell
+    git checkout <main/master>
+    git pull <main/master>
+    git checkout <involved-branch>
+    # If updated with repository
+    git merge main
+    # If not updated with repository
+    git merge origin/main
+    ```
+
+## Rebase vs. Merge
 
 
 
-### Modifying Existing Remote Branches
+## Modifying Existing Remote Branches
 
 
 
-### Cherry Pick and Reset
+## Cherry Pick and Reset
