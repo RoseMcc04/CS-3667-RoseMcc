@@ -57,7 +57,7 @@ Step 5: The admin will review the reasoning inputted to the pull request and det
 
 ## Rebase vs. Merge
 
-[[Rebase vs. Merge Diagram](https://miro.medium.com/v2/resize:fit:1400/1*mQOZjM3wwL1UV-ydQYAJTg.png)]
+[[Rebase vs. Merge Diagram](https://miro.medium.com/v2/resize:fit:1400/1*mQOZjM3wwL1UV-ydQYAJTg.png)](https://miro.medium.com/v2/resize:fit:1400/1*mQOZjM3wwL1UV-ydQYAJTg.png)
 
 ## Modifying Existing Remote Branches
 
