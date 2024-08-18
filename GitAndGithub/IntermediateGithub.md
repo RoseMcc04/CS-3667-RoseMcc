@@ -21,12 +21,18 @@ git pull
 git checkout -b <branch-name>
 ```
 
-Step 2: Create the desired feature or file and start the process of pushing the file with changes to teh repository. 
+Step 2: Create the desired feature or file and start the process of pushing the file with changes to the repository. 
 ```
 git add <file-name>
 git commit -m "commit message"
 git push origin <branch-name>
 ```
+
+Step 3: The admin can click onto your branch on Github and creates a pull request. 
+
+Step 4: The user the pull request is for will click a button called "Compare & pull request". The user will either have to upload a picture or two or input code changes or explain the reasoning for certain changes. 
+
+Step 5: The admin will review the reasoning inputted to the pull request and determine if they will merge the pull request into the main/master branch or not. Sometimes, admin will request other uses or admin to review the pull request. 
 
 ### How to Fix Conflicts
 
