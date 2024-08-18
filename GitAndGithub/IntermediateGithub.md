@@ -40,7 +40,7 @@ Step 5: The admin will review the reasoning inputted to the pull request and det
 
 1. Why do conflicts occur?
 
-- Conflicts can occur from the deletion of branches, a branch being behind main, or a multitude of other situations. 
+    - Conflicts can occur from the deletion of branches, a branch being behind main, or a multitude of other situations. 
 
 2. How can we fix conflicts?
 
