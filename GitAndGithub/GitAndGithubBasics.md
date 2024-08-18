@@ -43,7 +43,7 @@ git init
 
 - Staging area allows us to pick and choose which files we want committed
 ```shell
-git add.gitignore
+git add .gitignore
 ```
 Individually adds .gitignore file to the staging area, but can also be done with general files as well
 ```shell
