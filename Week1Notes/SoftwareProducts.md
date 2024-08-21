@@ -22,9 +22,6 @@
 
 ## Project-Based Software Engineering
 
-<<<<<<< HEAD
-- 
-=======
 - Starting point: software requirements, created by the client, describing needed functionality 
 - Software Developed internally or by external software company (contractor/consultants) who design and implement a system that delivers functionality to meet the requirements
 - Custom software usually has a long lifetime, must be supported over that lifetime
@@ -38,4 +35,3 @@
 - Who is responsible for deciding on the development timescale, what features to include, and when the product should change?
     - The software development company (not an external client!)
 - Rapid delivery of software products is essential to capture the market for that type of product 
->>>>>>> SoftwareProducts
