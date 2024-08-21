@@ -26,12 +26,12 @@
 - Software Developed internally or by external software company (contractor/consultants) who design and implement a system that delivers functionality to meet the requirements
 - Custom software usually has a long lifetime, must be supported over that lifetime
 - Lifetime could be 10 years or more
-- Many systems (legacy systems) are decades old
+- Many systems (legacy systems) are decades old <br>
 
 - Starting point: a business opportunity, identified by individuals or a company
 - They develop a software product to take advantage of this opportunity and sell this to customers
-- The company who identified the opportunity design and implement a set of software features that realize the opportunity and that will be useful to customers
+- The company who identified the opportunity design and implement a set of software features that realize the opportunity and that will be useful to customers <br>
 
 - Who is responsible for deciding on the development timescale, what features to include, and when the product should change?
     - The software development company (not an external client!)
-- Rapid delivery of software products is essential to capture the market for that type of product 
+- Rapid delivery of software products is essential to capture the market for that type of product <br>
