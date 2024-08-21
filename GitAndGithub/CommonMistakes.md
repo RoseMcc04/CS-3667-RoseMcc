@@ -2,6 +2,22 @@
 
 - The idea is to look at how to fix mistakes in version control with Git commands, along with how it affects the commit history in the repository. 
 
+## Table of Contents
+
+1. [Context](#Context)
+2. [Reverting to Older Version](#Reverting-to-a-Older-Version)
+3. [Messing up a Commit Message](#Messing-up-a-Commit-Message)
+4. [Accidentally Leaving Off a File](#accidentally-Leaving-Off-a-File)
+5. [Committing to the Wrong Branch](#committing-to-the-wrong-branch)
+6. [Resetting Commits](#resetting-commits)
+    1. [Resetting Commits - Soft](#resetting-commits---soft)
+    2. [Resetting Commits - Mixed](#resetting-commits---mixed)
+    3. [Resetting Commits - Hard](#resetting-commits---hard)
+7. [Getting Rid of Untracked Files](#getting-rid-of-untracked-files)
+8. [Reference Logs](#reference-logs)
+9. [Reverting Changes After Being Pulled By Others](#reverting-changes-after-being-pulled-by-others)
+10. [Comparing Two Commits](#comparing-two-commits)
+
 ## Context
 
 - We can use ```git status``` to check which files we need to commit and which files have already been logged. 
