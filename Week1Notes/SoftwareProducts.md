@@ -33,3 +33,11 @@
     - Who is responsible for deciding on the development timescale, what features to include, and when the product should change?
     - The software development company (not an external client!)
     - Rapid delivery of software products is essential to capture the market for that type of product
+
+## What is a software product line?
+
+- A set of software products that share a common core
+    - Each member of the product line includes customer-specific adaptations and additions
+    - Software product lines may be used to implement a custom system for a customer with specific needs that cannot be met by a generic product
+- An example would be a company providing communication software for different emergency services that use different types of radio/communication equipment
+- Another example would be software for smart TVs (due to many different models of said televisions)
