@@ -22,13 +22,13 @@
 
 ## Project-Based Software Engineering
 
-- Starting point: software requirements, created by the client, describing needed functionality 
+- Starting point (Development): software requirements, created by the client, describing needed functionality 
 - Software Developed internally or by external software company (contractor/consultants) who design and implement a system that delivers functionality to meet the requirements
 - Custom software usually has a long lifetime, must be supported over that lifetime
 - Lifetime could be 10 years or more
 - Many systems (legacy systems) are decades old
 
-- Starting point: a business opportunity, identified by individuals or a company
+- Starting point (Business): a business opportunity, identified by individuals or a company
 - They develop a software product to take advantage of this opportunity and sell this to customers
 - The company who identified the opportunity design and implement a set of software features that realize the opportunity and that will be useful to customers
 
