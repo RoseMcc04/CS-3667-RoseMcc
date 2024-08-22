@@ -95,3 +95,10 @@
 - Software product management is a business activity that focuses on the software products developed and sold by the business
 - Product managers (PMs) take overall responsibility for the product and are involved in planning, development, and product marketing
 - Must balance business needs, technology constraints, and customer experience
+
+## Two Key Product Management Activities
+
+- User story and scenario development
+    - User stories and scenarios are used to refine a product vision and identify product features - we will do this in this course for our projects
+- Product backlog creation and management
+    - The product backlog is a prioritized "to-do" list of what has to be developed - product managers help create and refine this, work with team to prioritize features
