@@ -47,3 +47,9 @@
 - A software (or combined software and hardware) product that includes functionality so that new applications can be built on it. 
 - Example: Facebook, where you can create "Facebook apps"
 - Self-Example: Github?
+
+## How/Where Does Software Execute?
+
+- Stand-alone: The software executes entirely on the customer's computers
+- Hybrid: Part of the software's functionality is implemented on the customer's computer but some features are implemented on the product developer's side
+- Software service: All of the product's features are implemented on the developer's servers and the customers accesses these through a browser or mobile app
