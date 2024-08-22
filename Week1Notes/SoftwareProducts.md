@@ -2,6 +2,21 @@
 
 ## Table of Contents
 
+1. [What is a Software Product?](#why-look-at-product-development)
+2. [Software Products](#software-products)
+3. [Project-Based Software Engineering](#project-based-software-engineering)
+4. [What is a Software Product Line?](#what-is-a-software-product-line)
+5. [What is a Platform?](#what-is-a-platform)
+6. [How/Where Does Software Execute?](#howwhere-does-software-execute)
+7. [Why Look at Product Development?](#why-look-at-product-development)
+8. [Developing a Product Vision](#developing-a-product-vision)
+9. [Moore's Vision Template](#moores-vision-template)
+10. [How is a Product Vision Developed?](#how-is-a-product-vision-developed)
+11. [Software Product Management](#software-product-management)
+12. [Two Key Product Management Activities](#two-key-product-management-activities)
+13. [What is Prototyping?](#what-is-prototyping)
+14. [Why Prototype?](#why-prototype)
+
 ## What is a Software Product?
 
 - Software products are generic software systems that provide functionality that is useful to a range of customers. 
