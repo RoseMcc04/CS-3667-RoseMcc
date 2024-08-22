@@ -62,3 +62,21 @@
     - Research software --> researchers develop software to help them answer questions that are relevant to their research
     - Internal tool development --> software developers may develop tools to support their work - these are basically internal products not intended for customers
     - Open-source systems --> the community decides on features
+
+## Developing a Product Vision
+
+- The starting point for software product development is a "product vision"
+- Product visions are simple statements that define the essence of the product to be developed
+- The product vision should answer three fundamental questions:
+    - What is the product to be developed?
+    - Who are the target customers and users?
+    - Why should customers buy this product?
+
+## Moore's Vision Template
+
+- FOR (target customer)
+- WHO (statement of the need or opportunity)
+- The (PRODUCT NAME) is a (product category)
+- THAT (key benefit, compelling reason to buy)
+- UNLIKE (primary competitive alternative)
+- OUR PRODUCT (statement of primary differentiation)
