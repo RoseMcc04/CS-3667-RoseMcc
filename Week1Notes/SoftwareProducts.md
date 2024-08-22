@@ -53,3 +53,12 @@
 - Stand-alone: The software executes entirely on the customer's computers
 - Hybrid: Part of the software's functionality is implemented on the customer's computer but some features are implemented on the product developer's side
 - Software service: All of the product's features are implemented on the developer's servers and the customers accesses these through a browser or mobile app
+
+## Why Look at Product Development?
+
+- Key feature of product development: there is no external customer that generates requirements and pays for the software
+- True for other types of software development:
+    - Student projects (us) --> students decide on system to build, features to include
+    - Research software --> researchers develop software to help them answer questions that are relevant to their research
+    - Internal tool development --> software developers may develop tools to support their work - these are basically internal products not intended for customers
+    - Open-source systems --> the community decides on features
