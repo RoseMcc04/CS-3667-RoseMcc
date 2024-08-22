@@ -80,3 +80,12 @@
 - THAT (key benefit, compelling reason to buy)
 - UNLIKE (primary competitive alternative)
 - OUR PRODUCT (statement of primary differentiation)
+
+How is a Product Vision Developed?
+
+| Information Source              | Explanation                                                                                                                                       |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Customer experience             | The software developers may have extensive discussions with prospective customers of the product to understand the problems that they face; constraints, such as interoperability, that limit their flexibility to buy new software; and critical attributes of the software that they need. |
+| Prototyping and “playing around” | Developers may have an idea for software but need to develop a better understanding of that idea and what might be involved in developing it into a product. They may develop a prototype system as an experiment and “play around” with ideas and variations using that prototype system as a platform. |
+| Domain experience               | The product developers may work in a particular area (say, marketing and sales) and understand the software support that they need. They may be frustrated by the deficiencies in the software they use and see opportunities for an improved system. |
+| Product experience              | Users of existing software (such as word processing software) may see simpler and better ways of providing comparable functionality and propose a new system that implements this. New products can take advantage of recent technological developments such as speech interfaces. |
