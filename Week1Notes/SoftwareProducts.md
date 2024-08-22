@@ -92,4 +92,6 @@
 
 ## Software Product Management
 
-- Software product management is a
+- Software product management is a business activity that focuses on the software products developed and sold by the business
+- Product managers (PMs) take overall responsibility for the product and are involved in planning, development, and product marketing
+- Must balance business needs, technology constraints, and customer experience
