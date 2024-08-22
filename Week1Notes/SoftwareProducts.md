@@ -102,3 +102,17 @@
     - User stories and scenarios are used to refine a product vision and identify product features - we will do this in this course for our projects
 - Product backlog creation and management
     - The product backlog is a prioritized "to-do" list of what has to be developed - product managers help create and refine this, work with team to prioritize features
+
+## What is Prototyping?
+
+- Product prototypinh is the process of developing an early version of a product to test your ideas and to convince yourself and company funders that your product has real market potential
+    - You may be able to write an inspiring product vision, but your potential users can only really relate to your product when they see a working version of your software. They can point out what they like and do not like about it and make suggestions for new features
+    - A prototype may be also used to help identify fundamental software components or services and to test technology
+
+## Why Prototype?
+
+- Potential users can only really relate to your product when they see a working version of your software
+- Prototypes can help to identify fundamental software components or services
+- Prototypes can be used to test technology and check feasibility
+- Building a prototype should be the first thing that you do when developing a software product
+- Generally plan to throw it away, though
