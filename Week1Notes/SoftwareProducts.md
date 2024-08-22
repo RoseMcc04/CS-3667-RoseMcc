@@ -89,3 +89,9 @@
 | Prototyping and “playing around” | Developers may have an idea for software but need to develop a better understanding of that idea and what might be involved in developing it into a product. They may develop a prototype system as an experiment and “play around” with ideas and variations using that prototype system as a platform. |
 | Domain experience               | The product developers may work in a particular area (say, marketing and sales) and understand the software support that they need. They may be frustrated by the deficiencies in the software they use and see opportunities for an improved system. |
 | Product experience              | Users of existing software (such as word processing software) may see simpler and better ways of providing comparable functionality and propose a new system that implements this. New products can take advantage of recent technological developments such as speech interfaces. |
+
+## Software Product Management
+
+- Software product management is a business activity that focuses on the software products developed and sold by the business
+- Product managers (PMs) take overall responsibility for the product and are involved in planning, development, and product marketing
+- Must balance business needs, technology constraints, and customer experience
