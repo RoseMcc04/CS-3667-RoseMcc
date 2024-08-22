@@ -81,7 +81,7 @@
 - UNLIKE (primary competitive alternative)
 - OUR PRODUCT (statement of primary differentiation)
 
-How is a Product Vision Developed?
+## How is a Product Vision Developed?
 
 | Information Source              | Explanation                                                                                                                                       |
 |---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
