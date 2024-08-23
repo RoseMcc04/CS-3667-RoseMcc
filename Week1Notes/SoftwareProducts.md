@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [What is a Software Product?](#why-look-at-product-development)
+1. [What is a Software Product?](#what-is-a-software-product)
 2. [Software Products](#software-products)
 3. [Project-Based Software Engineering](#project-based-software-engineering)
 4. [What is a Software Product Line?](#what-is-a-software-product-line)
