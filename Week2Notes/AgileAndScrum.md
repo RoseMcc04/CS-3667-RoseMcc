@@ -50,9 +50,20 @@
 
 ## Agile 
 
+- Virtually all software products are now developed using an agile approach
+
 ### Agile Software Engineering
 
+- Agile focus: quick delivery of functionality, minimal overhead, reponsiveness to change
+- A large number of agile methods have been developed:
+    - No best agile method or technique
+    - Which to choose? --> Depends on who is using the technique, the development team, and the type of product being developed
+
 ### Traditional Plan-Driven Development
+
+- Traditional, plan-driven development evilved to support the engineering of large, long-lifetime systems where teams may be geographically dispersed and work on the software for several years
+- Approach based on controlled and rigorous software development processes that include detailed project planning, requirements specification, and analysis and system modelling
+- Downside: plan-driven development involves significant overheads and documentation and it does not support the rapid development and delivery of software
 
 ### Origin of Agile Methods
 
