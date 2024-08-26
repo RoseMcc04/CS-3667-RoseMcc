@@ -67,9 +67,30 @@
 
 ### Origin of Agile Methods
 
+- Agile methods were developed in the 1990s to address problems with plan-driven approaches
+- Agile methods:
+    - Focus on the software rather than its documentation
+    - Develop software in a series of increments
+    - Aim to reduce process bureaucracy as much as possible
+- Common concept: what delivers value to the customer, versus what is "overhead" or "waste" that can be eliminated
+
 ### The Agile Manifesto (2001)
 
+- We are uncovering better ways of developing software by doing it and helping others to do it. Through this work, we have come to value: 
+    - individuals and interactions over processes and tools
+    - working software over comprehensive documentation
+    - customer collaboration over contract negotiation
+    - responding to change over following a plan
+- While there is value on the items on the right, we value the items on the left more 
+
 ### Incremental Development
+
+- All agile methods are based around incremental development and delivery
+- Product development focuses on the software features, where a feature does something for the software user
+- With incremental development, you start by prioritizing the features so that the most important features are implemented first
+    - You only define the details of the feature being implemented in an increment
+    - That feature is implemented and delivered
+- Users or surrogate users can try it out and provide feedback to the development team. You then go on to define and implement the next feature of the system 
 
 #### The Big Picture
 
