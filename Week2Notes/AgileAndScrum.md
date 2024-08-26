@@ -27,7 +27,7 @@
     3. [The Big Picture](#the-big-picture-1)
     4. [The Details](#the-details)
 6. [How do we Estimate for Time/Effort?](#how-do-we-estimate-for-timeeffort)
-7. [More on Story Points...]()
+7. [More on Story Points...](#more-on-story-points)
 8. [Timeboxed Sprints](#timeboxed-sprints)
     1. [Benefits](#benefits)
 9. [Sprints](#sprints)
