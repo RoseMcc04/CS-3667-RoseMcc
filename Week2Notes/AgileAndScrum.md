@@ -94,9 +94,33 @@
 
 #### The Big Picture
 
+- **Product feature list**
+  - Choose features to be included in increment
+  - Refine feature descriptions
+  - Implement and test feature
+  - Integrate feature into system
+  - Deliver system increment
+  - If all features are complete, deliver system release
+
 #### Activities
 
+| **Activity**                         | **Description**                                                                                                               |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Choose features to be included in an Increment | Using the list of features in the planned product, select those features that can be implemented in the next product increment. |
+| Refine feature descriptions          | Add detail to the feature descriptions so that the team members have a common understanding of each feature and there is sufficient detail to begin implementation. |
+| Implement and test                   | Implement the feature and develop automated tests for that feature that show that its behavior is consistent with its description. |
+| Integrate feature and test           | Integrate the developed feature with the existing system and test it to check that it works in conjunction with other features. |
+| Deliver system increment             | Deliver the system increment to the customer or product manager for checking and comments. If enough features have been implemented, release a version of the system for customer use. |
+
 ### Agile Principles
+
+| **Principle**                       | **Description**                                                                                                                                   |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Involve the customer                | Involve customers closely with the software development team. Their role is to provide and prioritize new system requirements and to evaluate each increment of the system. |
+| Embrace change                      | Expect the features of the product and the details of these features to change as the development team and the product manager learn more about the product. Adapt the software to cope with changes as they are made. |
+| Develop and deliver incrementally   | Always develop software products in increments. Test and evaluate each increment as it is developed and feed back required changes to the development team. |
+| Maintain simplicity                 | Focus on simplicity in both the software being developed and the development process. Wherever possible, do what you can to eliminate complexity from the system. |
+| Focus on people, not the development process | Trust the development team and do not expect everyone to always do things in the same way. Team members should be left to develop their own ways of working without being limited by prescriptive software processes. |
 
 ## Extreme Programming (XP)
 
