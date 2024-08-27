@@ -124,9 +124,32 @@
 
 ## Extreme Programming (XP)
 
+- The most influential work that has changed software development culture was the development of Extreme Programming (XP)
+- The name was coined by Kent Beck in 1998 because the approach was developed by pushing recognized good practice, such as iterative development, to "extreme" levels
+- Focused on 12 new development techniques that were geared to rapid, incremental software development, change, and delivery
+
 ### Extreme Programming Practices
 
+- **Test-first development**
+- **Refactoring**
+- **Small releases**
+- **Simple design**
+- **On-site customer**
+- **Sustainable pace**
+- **Pair programming**
+- **Collective ownership**
+- **Incremental planning**
+- **Continuous integration**
+
 ### Widely Adopted XP Practices
+
+| **Practice**                       | **Description**                                                                                                                                                    |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Incremental planning/ user stories | There is no “grand plan” for the system. Instead, what needs to be implemented (the requirements) in each increment is established in discussions with a customer representative. The requirements are written as user stories. The stories to be included in a release are determined by the time available and their relative priority. |
+| Small releases                     | The minimal useful set of functionality that provides business value is developed first. Releases of the system are frequent and incrementally add functionality to the previous release. |
+| Test-driven development            | Instead of writing code and then tests for that code, developers write the tests first. This helps clarify what the code should actually do and that there is always a “tested” version of the code available. An automated unit test framework is used to run the tests after every change. New code should not “break” code that has already been implemented. |
+| Continuous integration             | As soon as the work on a task is complete, it is integrated into the whole system and a new version of the system is created. All unit tests from all developers are run automatically and must be successful before the new version of the system is accepted. |
+| Refactoring                        | Refactoring means improving the structure, readability, efficiency, and security of a program. All developers are expected to refactor the code as soon as potential code improvements are found. This keeps the code simple and maintainable. |
 
 ## Scrum
 
