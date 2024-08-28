@@ -153,15 +153,55 @@
 
 ## Scrum
 
+- Software company managers need information that will help them understand how much it costs to develop a software product, how long it will take, and when the product can be brought to market
+- Plan-driven development provides this information through long-term development plans that identify deliverables - items the team will deliver and when these will be delivered
+- Plans always change so anything apart from short-term plans are unreliable
+- Scrum is an agile method that provides a framework for agile project organization and planning; it does not mandate any specific technical practices
+
 ### Terminology
+
+| **Scrum Term**                       | **Explanation**                                                                                                             |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| **Product**                          | The software product that is being developed by the Scrum team.                                                             |
+| **Product Owner**                    | A team member who is responsible for identifying product features and attributes. The Product Owner reviews work done and helps to test the product. |
+| **Product backlog**                  | A to-do list of items such as bugs, features, and product improvements that the Scrum team has not yet completed.            |
+| **Development team**                 | A small self-organizing team of five to eight people who are responsible for developing the product.                         |
+| **Sprint**                           | A short period, typically two to four weeks, when a product increment is developed.                                          |
+| **Scrum**                            | A daily team meeting where progress is reviewed and work to be done that day is discussed and agreed.                        |
+| **ScrumMaster**                      | A team coach who guides the team in the effective use of Scrum.                                                             |
+| **Potentially shippable product increment** | The output of a sprint that is of high enough quality to be deployed for customer use.                                       |
+| **Velocity**                         | An estimate of how much work a team can do in a single sprint.                                                              |
 
 ### Key Roles in Scrum
 
+-**The Product Owner**--> responsible for ensuring that the development team are always focused on the product they are building rather than diverted into technically interesting but less relevant work (often product manager)
+-**The ScrumMaster**--> Scrum expert whose job is to guide the team in the effective use of the Scrum method; more if a team manager than a conventional project manager
+
 ### Scrum and Sprints
+
+- In Scrum, software is developed in sprints, which are fixed-length periods (2-4 weeks) in which software features are developed and delivered
+- During a sprint, the team has daily meetings (Scrums) to review progress and to update the list of work items that are incomplete
+- Sprints should produce a "shippable product increment"; This means that the developed software should be complete and ready to deploy
 
 ### Top Five Benefits
 
+- **Product**
+    - The product is broken down into a set of understandable chunks that stakeholders can relate to
+- **Progress**
+    - Unstable requirements do not hold up progress
+    - Customers see on-time delivery of increments and gain feedback on how the product works
+- **People**
+    - Team communication is improved because everyone can see everything
+    - Trust between customers and developers is established and a positive culture is created
+
 ### Key Practices
+
+- **Product backlog**
+    - This is a to-do list of items to be implemented that is reviewed and updated before each sprint
+- **Timeboxed sprints**
+    - Fixed-time (2-4 week) periods in which items from the product backlog are implemented 
+- **Self-organizing teams**
+    - Self-organizing teams make their own decisions and work by discussing issues and making decisions by concensus
 
 ## Product Backlogs
 
