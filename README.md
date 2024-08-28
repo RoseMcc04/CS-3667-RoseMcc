@@ -6,6 +6,6 @@ Course Description: This course covers the design and implementation of software
 
 - Git/Github
 - Software Products
-- Agile Methodologies
-- Scrum
-- *More topics will be added later
+- Agile and Scrum
+- Software Requirements
+- Reliable Programming and Patterns
