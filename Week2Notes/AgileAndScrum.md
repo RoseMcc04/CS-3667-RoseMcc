@@ -174,8 +174,8 @@
 
 ### Key Roles in Scrum
 
--**The Product Owner**--> responsible for ensuring that the development team are always focused on the product they are building rather than diverted into technically interesting but less relevant work (often product manager)
--**The ScrumMaster**--> Scrum expert whose job is to guide the team in the effective use of the Scrum method; more if a team manager than a conventional project manager
+- **The Product Owner**--> responsible for ensuring that the development team are always focused on the product they are building rather than diverted into technically interesting but less relevant work (often product manager)
+- **The ScrumMaster**--> Scrum expert whose job is to guide the team in the effective use of the Scrum method; more if a team manager than a conventional project manager
 
 ### Scrum and Sprints
 
@@ -205,13 +205,52 @@
 
 ## Product Backlogs
 
+- The product backlog is a list of what needs to be done to complete the development of a product
+- The items on this list are called product backlog items (PBIs)
+- The product backlog may include a variety of different items such as product features to be implemented, user requests, essential development activities, and desirable engineering improvements
+- The product backlog should always be prioritized so that the items that are implemented first are at the top of the list
+
 ### Example Items
+
+1. As a student, I have to figure out which person develops which feature of the product. (feature)
+2. As a student, I want to make sure that I remember to factor ethical and social implications of my product, along with human factors. (feature)
+3. As someone with Autism Spectrum Disorder (ASD), I want to make sure that other autistic children are treated like people. (user request)
+4. Establishment criteria for the assessment of open source software that might be used as a basis for parts of this system. (development activity)
+5. Refactor user interface code to improve comprehension and performance. (engineering improvement)
+6. Implement encryption for all personal user data. (engineering improvement)
 
 ### Item States
 
+| **Heading**               | **Description**                                                                                                                                          |
+|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ready for consideration    | These are high-level ideas and feature descriptions that will be considered for inclusion in the product. They are tentative, so may radically change or may not be included in the final product. |
+| Ready for refinement       | The team has agreed that this is an important item that should be implemented as part of the current development. There is a reasonably clear definition of what is required. However, work is needed to understand and refine the item. |
+| Ready for implementation   | The PBI has enough detail for the team to estimate the effort involved and to implement the item. Dependencies on other items have been identified.                                          |
+
 ### The Big Picture
 
+## Product Backlog Activities: The Big Picture
+
+Product Backlog                  |  Process         | Revised 
+-----------------------------    | --------------   | --------------------------
+PBI 1                            | Refinement       | PBI 1.1
+PBI 2                            |                  | PBI 1.2
+PBI 3                            | Estimation       | PBI 2E
+PBI 4                            |                  | PBI 3E
+PBI 5                            | Prioritization   | PBI 4
+                                 | Creation         | PBI 5
+                                                     | PBI 6
+
 ### The Details
+
+- **Refinement**
+    - Existing PBIs are analyzed and refined to create more detailed PBIs; This may lead to the creation of some new product backlog items
+- **Estimation**
+    - The team estimates the amount of work required to implement a PBI and add this assessment to each analyzed PBI
+- **Creation**
+    - New items are added to the backlog; These may be new features suggested by the product manager, required feature changes, engineering improvements, or process activities such as the assessment of development tools that might be used
+- **Prioritization**
+    - The product backlog items are reordered to take new information and changed circumstances into account
 
 ## How do we Estimate for Time/Effort?
 
