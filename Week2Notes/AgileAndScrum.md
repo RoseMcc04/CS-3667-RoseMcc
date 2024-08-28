@@ -21,7 +21,7 @@
     3. [Scrum and Sprints](#scrum-and-sprints)
     4. [Top Five Benefits](#top-five-benefits)
     5. [Key Practices](#key-practices)
-5. [Product Bakclogs](#product-backlogs)
+5. [Product Backlogs](#product-backlogs)
     1. [Example Items](#example-items)
     2. [Item States](#item-states)
     3. [The Big Picture](#the-big-picture-1)
@@ -229,8 +229,6 @@
 
 ### The Big Picture
 
-## Product Backlog Activities: The Big Picture
-
 Product Backlog                  |  Process         | Revised 
 -----------------------------    | --------------   | --------------------------
 PBI 1                            | Refinement       | PBI 1.1
@@ -239,7 +237,7 @@ PBI 3                            | Estimation       | PBI 2E
 PBI 4                            |                  | PBI 3E
 PBI 5                            | Prioritization   | PBI 4
                                  | Creation         | PBI 5
-                                                     | PBI 6
+                                 |                  | PBI 6
 
 ### The Details
 
@@ -254,7 +252,15 @@ PBI 5                            | Prioritization   | PBI 4
 
 ## How do we Estimate for Time/Effort?
 
+- **Effort required**
+    - This may be expressed in person-hours or person-days, the number of hours or days it would take one person to implement that PBI; This is not the same as calendar time; Several people working can reduce calendar time
+- **Story points**
+    - Story points are an arbitrary estimate of the effort involved in implementing a PBI, taking into account the size of the task, its complexity, the technology that may be required, and the "unknown" characteristics of the work
+
 ## More on Story Points...
+
+- They were derived originally by comparing user stories, but they can be used for estimating any kind of PBI
+- Story points are estimated relatively; The team agrees on the story points for a baseline task and other tasks are estimated by comparisin with this
 
 ## Timeboxed Sprints
 
