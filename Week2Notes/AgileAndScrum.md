@@ -279,13 +279,45 @@ PBI 5                            | Prioritization   | PBI 4
 
 ## Sprints
 
+- Short period of time when a team works to complete a set amount of work
+
 ### Activities
+
+- **Sprint planning** --> 
+    - Work items to be completed in that sprint are selected and, if necessary, refined to create a sprint backlog; This should not last more than a day at the beginning of the sprint
+- **Sprint execution** --> 
+    - The team work to implement the sprint backlog items that have been chosen for the sprint; If it is impossible to complete all of the sprint backlog items, the sprint is not extended; The unfinished items are returned to the product backlog and queued for a future sprint
+- **Sprint reviewing** -->
+    - The work done in the sprint is reviewed by the team and (possibly) external stakeholders; The team reflect on what went well and what went wrong during the spting with a view to improving their work process
 
 ### Planning
 
+- Establish an agreed sprint goal
+    - Sprint goals may be focused on software functionality, support, or performance and reliability
+- Decide on the list of items from the product backlog that should be implemented
+- Create a sprint backlog
+    - This is a more detailed version of the product backlog that records the work to be done during the sprint
+- In a sprint plan, the team decides which items in the product backlog should be implemented during that sprint
+    - Key inputs are the effort estimates associated with PBIs and the team's velocity
+- The output of the sprint planning process is a sprint backlog
+    - The sprint backlog is a breakdown of PBIs to show the tasks involved in implemented the PBIs chosen for that sprint
+- During a sprint, the team have scrums to coordinate their work
+
 ### Example Goals
 
+- **Functional** -->
+    - Implement user roles so that a user can select their role when they login to the system
+- **Performance and Reliability** -->
+    - Ensure that the login response time is less than 10 seconds for all users where there are up to 2000 simultaneous login connections
+- **Support** -->
+    - Develop analytics that maintain information about the time users spend using each feature of the system
+
 ### Reviews
+
+- At the end of each sprint, there is a review meeting, which involves the whole team; This meeting:
+    - reviews whether or not the sprint has met its goal
+    - sets out any new problems and issues that have emerged during the sprint
+    - is a way for a team to reflect on how they can improve the way they work (continuous improvement)
 
 ## More on Scrums
 
