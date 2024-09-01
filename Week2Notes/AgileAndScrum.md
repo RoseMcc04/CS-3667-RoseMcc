@@ -392,4 +392,19 @@ PBI 5                            | Prioritization   | PBI 4
 
 ### Singling Out Some Good Practices
 
+- **Refactoring**
+    - Experienced programmers already did this, but making it an official, "named" activity encourages code improvement
+- **Communications**
+    - Short daily meetings help keep everyone up to date on progress
+    - Team communication is given the importance it deserves
+    - Explicitly identifying and removing impediments and "waste"
+
 ### Singling Out Some Brilliant Practices
+
+- Short Iterations
+    - Constant feedback is essential, checkpoints should be every few weeks, not every few months
+- Continuous Integration and Testing
+    - Software testing has taken on additional importance, most realistic projects now build regression test suites that are regularly executed
+    - Having tests associated with each feature improves quality
+- The "Closed-Window" Rule
+    - Functionality cannot be added during an iteration, requests for changes can only affect future iterations
