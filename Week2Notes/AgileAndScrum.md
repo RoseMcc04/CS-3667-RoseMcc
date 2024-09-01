@@ -372,7 +372,21 @@ PBI 5                            | Prioritization   | PBI 4
 
 ## Project Management
 
+- In most product development companies, there is a need for development teams to report on progress to company management
+- A self-organizing team has to appoint someone to take on these responsibilities
+    - Because of the need to maintain continuity of communication outside of the group, rotating these activities around team members is not a viable approach
+- The developers of Scrum did not envisage that the ScrumMaster should also have project management responsibilities
+    - In many companies, however, the ScrumMaster has to take on project management responsibilities
+    - They know the work going on and are in the best position to provide accurate information, along with project plans and progress
+
 ### Responsibilities
+
+- **Administration**
+    - Finance, Compliance, Procurement, Liaison
+- **People**
+    - Vacations, Absences, Work Quality, Reviewing, Hiring
+- **Reporting**
+    - Budget, Scheduling, Risks, Problems, Progress
 
 ## Meyer
 
