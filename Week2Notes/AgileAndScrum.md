@@ -321,9 +321,25 @@ PBI 5                            | Prioritization   | PBI 4
 
 ## More on Scrums
 
+- Scrum meetings should be short and focused; To dissuade team members from getting involved in long discussions, scrums are sometimes orrganized as "stand-up" meetings where there are no chairs in the meeting room
+- During a scrum, the sprint backlog is reviewed; Completed items are removed from it; New items may be added to the backlog as new information emerges; The team then decides who should work on sprint backlog items that day
+
 ## Important Agile Activities
 
+- **Test Automation** --> 
+    - As far as possible, product testing should be automated; You should develop a suite of executable tests that can be run at any time
+- **Contonuous Integration** --> 
+    - Whenever anyone makes changes to the software components they are developing, these components should be immediately integrated with other components to create a system; This system should then be tested to check for unanticipated component interaction problems
+
 ### Example: Code Completedness Checklist
+
+| State               | Description                                                                                                                                                        |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Reviewed**        | The code has been reviewed by another team member who has checked that it meets agreed coding standards, is understandable, includes appropriate comments, and has been refactored if necessary. |
+| **Unit tested**     | All unit tests have been run automatically and all tests have executed successfully.                                                                                |
+| **Integrated**      | The code has been integrated with the project codebase and no integration errors have been reported.                                                                |
+| **Integration tested** | All integration tests have been run automatically and all tests have been executed successfully.                                                               |
+| **Accepted**        | Acceptance tests have been run if appropriate and the Product Owner or the development team has confirmed that the product backlog item has been completed.          |
 
 ## Teams
 
