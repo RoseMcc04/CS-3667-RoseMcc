@@ -343,11 +343,32 @@ PBI 5                            | Prioritization   | PBI 4
 
 ## Teams
 
+- Scrum cannot work without having a team of engineers, leaders, and a client/some clients
+
 ### Size and Composition
+
+- The ideal Scrum team size is 5-8 people
+    - Teams have to tackle diverse tasks and so usually require people with different skills, such as networking, UX/UI, database design, and many others
+    - They usually involve people with different levels of experience
+    - A team of 5-8 people is large enough to be diverse yet small enough to communicate informally and effectively and to agree on the priorities of the team
+- The advantage of a self-organizing team is that it can be a cohesive team that can adapt to change
+    - Because the team rather than individuals take responsibility for the work, they can cope with people leaving and joining with the team
+    - Good team communication means that team members inevitably learn something about each other's areas
 
 ### Coordinations
 
+- Scrum assumes that teams would be co-located, can have formal and informal communication -- daily scrums mean that the team members know what has been done and what others are doing
+- Daily scrums make two assumptions that may be wrong:
+    - Scrum assumes that the team will be made up of full-time workers who share a workspace
+        - In reality, team members may be part-time and may work in different places
+    - Scrum assumes that all team members can attend a morning meeting to coordinate the work for the day
+        - However, some team members may work more fleible hours
+
 ### External Interactions
+
+- External interactions are interactions that team members have with people outside of the team
+- In Scrum, the idea is that developers should focus on development and only the ScrumMaster and Product Owner should be involved in external interactions
+- The intention is that the team should be able to work on software development without external interference or distractions
 
 ## Project Management
 
