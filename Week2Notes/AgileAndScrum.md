@@ -264,7 +264,18 @@ PBI 5                            | Prioritization   | PBI 4
 
 ## Timeboxed Sprints
 
+- Products are developed in a series of sprints, each of which delivers an increment of the product or supporting software
+- Sprints are short duration activities (1-4 weeks) and take place between a defined start and end date; Sprints are timeboxed, which means that development stops at the end of a sprint whether or not the work has been completed
+- During a sprint, the team works on the items from the backlog
+
 ### Benefits 
+
+- **Demonstrable Progress** --> 
+    - There is a tangible output (usually a software demonstrator) that can be delivered at the end of every sprint
+- **Problem Discovery** -->
+    - If errors and omissions are discovered, the rework required is limited to the duration of a sprint
+- **Work Planning** --> 
+    - The team develops an understanding of how much work they can do in a fixed time period
 
 ## Sprints
 
