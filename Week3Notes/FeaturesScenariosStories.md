@@ -37,7 +37,7 @@
     - Business and consumer needs unmet by current products
     - Dissatisfaction with existing software products
     - Changes in technology that make completely new types of products possible
-- In the early stage of product development, you are trying to understand <u>what product features would be useful to users, </u>and <u>what they like and dislike about the products that they use</u>
+- In the early stage of product development, you are trying to understand <ins>what product features would be useful to users, </ins>and <ins>what they like and dislike about the products that they use</ins>
 
 ## Software Features
 
