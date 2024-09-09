@@ -56,6 +56,15 @@
 
 ## Feature Description Template
 
+- **Action**
+    - A description of how the input data is processed
+    - **Activation**
+        - How the feature is activated by the user
+    - **Input**
+        - The input from the user and other sources
+- **Output**
+    - The output to the user and the system
+
 ## Personas
 
 ### Example
