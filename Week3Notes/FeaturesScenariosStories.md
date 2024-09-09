@@ -33,6 +33,12 @@
 
 ## Software Products
 
+- Three factors that drive the design of software products
+    - Business and consumer needs unmet by current products
+    - Dissatisfaction with existing software products
+    - Changes in technology that make completely new types of products possible
+- In the early stage of product development, you are trying to understand <u>what product features would be useful to users, </u>and <u>what they like and dislike about the products that they use</u>
+
 ## Software Features
 
 ## User Understanding
