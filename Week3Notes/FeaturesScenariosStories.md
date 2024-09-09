@@ -41,7 +41,18 @@
 
 ## Software Features
 
+- A feature is a fragment of functionality such as a "print" feature, a "change background" feature, a "new document" feature, etc
+- You should aim to create a list of features to be included in your product **before** you start to code
+- The feature list should be your starting point for product design and development
+
 ## User Understanding
+
+- It makes sense in any product development to spend time trying to understand the potential users and customers of your product
+- A range of techniques have been developed for understanding the ways that people work and use software
+    - *Examples: user interviews, surveys, ethnography, and task analysis*
+    - Some of these are expensive and unrealistic for small companies
+    - We will talk briefly about some of these
+- Informal user analysis and discussions - asking users about their work, the software they use, and its strengths and weaknesses - are inexpensive and very valuable
 
 ## Feature Description Template
 
