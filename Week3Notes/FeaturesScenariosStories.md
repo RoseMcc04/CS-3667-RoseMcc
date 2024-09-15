@@ -215,7 +215,7 @@
 
 - **Simplicity and Functionality**
     - You need to find a balance between providing a simple, easy-to-use system and including enough functionality to attract users with a variety of needs
-**Familiarity and Novelty**
+- **Familiarity and Novelty**
     - Users prefer that new software should support the familiar everyday tasks that are part of their work or life; Go encourage them to adopt your system, you need to find a balance between familiar features and new features that convince users that your product can do more than its competitors
 - **Automation and Control**
     - Some users like automation, where the software performs automatic processes, but others perfer to have control; You have to think carefully about what can be automated, how it is automated, and how users can configure the automation so that the system can be tailored to their preferences
