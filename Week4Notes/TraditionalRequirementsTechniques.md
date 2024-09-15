@@ -229,9 +229,27 @@
 
 ## Document Analysis
 
+- Review existing documentation for the system, including reports and the user interface
+- Note: *this is only the formal system, there may be an informal system as well*
+    - Users may include ad-hoc information in specific "unused" field or on other reports since there is no way to actually give this information directly
+    - Some parts of the system may never be used, so it may be good to get rid of them
+- Formal is system as it is intended to be used, informal is how it is actually used, these may differ!
+
 ## Observation/Ethnography
 
+- Actually watch how people do their work
+- Essentially, you are acting like an anthropologist
+- Works to check validity of gathered information, gather new information when people do not volunteer it (e.g., people may forget some steps that they do automatically)
+- **Keys**
+    - Keep a low profile
+    - Do not interrupt people while they work
+    - Do not influence how people do their work
+
 ### Challenges
+
+- People may work differently when they know they are being watched
+- Hard to identify new features, you are just getting more details on an existing process
+- Studies existing practices, may not be ideal or may be based on historical reasons that no longer hold
 
 ## Selecting Appropriate Techniques
 
