@@ -98,11 +98,37 @@
 
 ## Traceability
 
+- **Traceability**
+    - means we can link together different software engineering artifacts, to see which influence which
+- Worls in the forward direction (e.g., from requirements to design, from design artifacts to code) and in the backwards direction (e.g., from code to the related requirement)
+- For us: iseful to link tests to user stories
+
 ## Requirements Elicitation
+
+- To start, we need to figure out what requirements are
+- Often called requirements eliciation or requirements discovery
+- Requirements Analysis then takes these requirements and fleshes them out
+= This often involves two systems, mentioned before: the as-is (current) and to-be (new) systems
+- Technical staff need to work with the project stakeholders to actually find out what the requirements are for the to-be system
 
 ### Techniques
 
+- Interviews
+- Questionnaires
+- Observation
+- Joint Application Development (JAD) sessions
+- Document analysis <br><br>  
+
+- This is also about building support for the system
+- What does it say to someone if they are included in this process?
+
 ### Challenges
+
+- Stakeholders may not know what they really want
+- Stakeholders may express requirements in theor own terms
+- Different stakeholders may have conflicting requirements
+- Organizational and political factors (factors outside the project) may influence the requirements
+- Requirements change during analysis, we may learn of new stakeholders, and the busines itself may change
 
 ## Interviews
 
