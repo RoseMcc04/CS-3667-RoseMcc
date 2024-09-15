@@ -146,6 +146,11 @@
 
 ## User Involvement
 
+- It is easy for anyone to read and understand scenarios, so it is possible to get users involved in their development
+- The best approach is to develop an imaginary scenario based on our understanding of how the system might be used then ask users to explain what you have got wrong
+- They might ask about things they did not understand and suggest how the scenario could be extended and made more realistic
+- Author's experience: users are not good at writing their own scenarios
+
 ## User Stories
 
 ### Feature Description Using User Stories
