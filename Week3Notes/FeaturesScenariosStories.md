@@ -154,14 +154,14 @@
 ## User Stories
 
 - Scenarios are high-level stories of system use; They should describe a sequence of interactions with the system but should not include details of these interactions
-- User stories are finer-grain narratives that set out in a more detailed and structured way *a **single** thing that a user wants from a software system*
+- User stories are finer-grain narratives that set out in a more detailed and structured way <ins>a **single** thing that a user wants from a software system</ins>
     - From Sommerville: *"As an author, I need a way to organize the book that I'm writing into chapters and sections."*
 - This story reflects what has become the standard format of a user story:
-    - *As a* <role>, I <want | need> to <do something>
-        - *As a teacher, I want to tell all members of my group when new information is available*
+    - **As a** `role`, I `want | meed` to `do something`
+        - *As a teacher, I want to tell all members of my group when new information is available.*
 - A variant of this standard format adds a justification for the action:
-    - *As a* <role> I <want | need> to <do something> *so that* <reason>
-        - *As a teacher, I need to be able to report who is attending a class trip so that the school maintains the required health and safety records*<br>
+    - **As a** `role` I `want | need` to `do something` **so that** `reason`
+        - *As a teacher, I need to be able to report who is attending a class trip so that the school maintains the required health and safety records.*<br>
 
 - An important part of user stories is in planning
     - Many users of the Scrum method represent the product backlog as a set of user stories
@@ -174,6 +174,12 @@
 - Each feature can have a set of associated stories that describe how that feature is used
 
 ### Stories and Scenarios
+
+- As you can express all of the functionality described in a scenario as user stories, do you really need scenarios?
+- Scenarios are more natural and are helpful for the following reasons:
+    - Scenarios read more naturally because they describe what a user of a system is actually doing with that system; People often find it easier to relate to this specific information rather than the statement of wants or needs set out in a set of user stories
+    - If you are interviewing real users or are checking a scenario with real users, they do not talk in the stylized manner that is used in user stories; People relate better to the more natural narrative in scenarios
+    - Scenarios often provide more context - information about what the user is trying to do and their normal ways of working; You can do this in user stories, but it means that they are no longer simple statements about the use of a system feature
 
 ## Feature Identification
 
