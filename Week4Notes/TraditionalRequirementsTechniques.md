@@ -292,19 +292,55 @@
 
 ### #1: Problem Analysis
 
+- Asks users and managers about problems with the current system, possible solutions in the to-be system
+- What is a possible limitation of this for finding requirements?
+    - This tends to focus only on incremental changes
+    - Can improve performance and usability, not likely to truly increase the value or capabilities of the system
+
 ### #2: Root Cause Analysis
+
+- Try to identify the root cause of a problem, making sure we do not skip too quickly to a solution
+- Works by identifying problems, looking for root causes for each
 
 ### #3: Duration Analysis
 
+- Determine the total time it takes to perform a set of business processes for a typical input
+- Time each individual step in the processes
+- What would it mean if there is a large variance between the total time and the sum of the individual step times?
+    - The process may be broken at time point - e.g., something sits in a queue waiting for several weeks
+
 ### #4: Activity-Based Costing
+
+- Similar to duration analysis, but with costs and not times
+- Look for most costly parts of processes, focuses attention on them
+- Remember indirect costs (e.g., rent, electricity)
 
 ### #5: Informal Benchmarking
 
+- Analyze other businesses, to see how they do the same or similar processes
+- May actually informally visit your competitors to see how they do business (e.g., if you sell computers, you may visit the Apple store to see how they do customer service)
+
 ### #6: Outcome Analysis
+
+- Analyze outcomes of business processes from the customer's perspective
+- Note: this may not be obvious - what do customers want out of the process, versus what do we typically think this process does?
+- Example: *if a customer has a car accident and we are an insurance company, what outcome does the customer want?*
 
 ### #7: Technology Analysis
 
+- Develop a list of important and/or interesting technologies
+- Brainstorm ways that these technologies could be used to support/enhance the business
+- This does not mean they will all be adopted!
+- What is a potential problem here?
+    - We do not want to use a technology for technology's sake, there needs to be a real business driver
+
 ### #8: Activity Elimination
+
+- Look at each activity in the business process
+    - How could it be eliminated?
+    - How could the company operate without it?
+    - What would be likely to happen?
+- This can result in some odd results that do not make sense, since we have to do this with each activity
 
 ## Requirements Modeling
 
