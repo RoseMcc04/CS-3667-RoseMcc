@@ -253,11 +253,40 @@
 
 ## Selecting Appropriate Techniques
 
+- Often, will use multiple techniques, not just one
+- Pick different technqiues based on...
+    - Type of information
+    - Depth of information
+    - Breadth of information
+    - Integration of information
+    - User involvement
+    - Cost
+
 ## Requirements Analysis Strategies
+
+- Problem analysis
+- Root cause analysis
+- Duration analysis
+- Activity-based costing
+- Informal benchmarking
+- Outcome analysis
+- Technology analysis
+- Activity elimination
 
 ## Elicitation vs. Analysis
 
+- Requirements *elicitation* focuses on requirements discovery by asking current or potential users of the system
+- Requirements *analysis* uses this information as a starting point to develop further details about the requirements
+- Analysis may lead to more questions, leading to elicitation, and back to analysis - this operates iteratively
+
 ## Requirements Challenges
+
+- We may not have the correct set of users
+- The requirements specification may be inadequate (especially with more lightweight techniques)
+- Requirements may be ambiguous, interpreted by different stakeholders in different ways
+- Some requirements are unknowable at the beginning of a project
+- Verifying and validating requirements can be challenging
+- Analysis can help us identify these problems
 
 ## Analysis Strategies
 
