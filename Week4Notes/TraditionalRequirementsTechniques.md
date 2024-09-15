@@ -355,8 +355,32 @@
     <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/what-is-a-use-case-diagram-in-UML/UML_use_case_example-800x707.PNG" alt="Basic Use Case Diagram" width="300">
     <figcaption>Lucidchart Use Case Tutorial Diagram</figcaption>
 </figure>
+- Diagrams give a high-level view of requirements: which business processes exist, how they are related, which stakeholders engage in them
+- Good for working with potential system users to identify requirements, diagrams are high-level and easy to understand
 
 ### Elements of Use Case Diagrams
+
+- **Actors**
+    - identified roles that users can play when interacting with the system
+    - Can be humans, but also could be other systems
+    - Inheritance can be used to model specialized variants of actors
+- **Associations**
+    - indicate links between actors and use cases
+    - Generally two way; if unidirectional, can use an error with a solid arrowhead
+    - Multiplicity represented by numbers or symbols (e.g., *) on the lines
+- **Use Cases**
+    - a major process that the system performs, labeled with a descriptive verb-noun phrase (e.g., "Manage Appointments", "Register for Classes")
+    - can include, extend, or generalize other use cases
+- Inclusion used to indicate functionality from one use case is used inside another
+- Extension used to indicate functionality from one use case is extended/enriched by another with additional optional behavior
+- Generalization used to specialize a use case, links back from specializing to specialized (more general) use case
+- Subject boundaries indicate what is included in the system, what is outside of it
+    - Can be challenging to set sometimes
+
+<figure>
+    <img src="https://thientanchuong.wordpress.com/wp-content/uploads/2012/11/usecase.jpg" alt="Elements of Use Case Diagrams" width="300">
+    <figcaption>Elements of Use Case Diagram Charts - thientanchuong</figcaption>
+</figure>
 
 ## Identifying Major Use Cases
 
