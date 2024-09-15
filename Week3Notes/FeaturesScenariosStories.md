@@ -115,9 +115,34 @@
 
 ## Scenarios
 
+- A scenario is a narrative that describes how a user, or a group of users, might use your system
+- There is no need to include everything in a scenario - the scenario is not a system specification
+- It is simply a description of a situation where a user is using your product's features to do something they want to do
+- Scenario descriptions may vary in length from two to three paragraphs up to a page of text
+
 ### Description Elements
 
+- **Scenario Description Elements**
+    - Scenario name
+    - Overall objective
+    - What's involved in reaching the objective
+    - Personas of actors involved in the scenarios
+    - Problem that cannot be addressed by the existing system
+    - Possible ways that the problem could be tackled  
+
+- A brief statement of the overall objective
+- References to the personas involved so that you can get information about the capabilities and motivation of the user
+- Information about what is involved in doing the activity
+- An explanation of problems that cannot be readily addressed using the existing system
+- A description of one way that the identified problem might be addressed
+
 ### Writing Scenarios
+
+- Scenarios should always be written from the user's perspective and based on identified personas or real users
+- Your starting point for scenario writing should be the personas that you have already created; You should normally try to imagine several scenarios from each persona
+- Ideally, scenarios should be general and should not include implementation information
+    - However, describing an implementation is often the easiest way to explain how a task is done
+- It is important to ensure that you have coverage of all of the potential user roles when describing a system
 
 ## User Involvement
 
