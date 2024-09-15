@@ -355,7 +355,7 @@
     <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/what-is-a-use-case-diagram-in-UML/UML_use_case_example-800x707.PNG" alt="Basic Use Case Diagram" width="300">
     <figcaption>Lucidchart Use Case Tutorial Diagram</figcaption>
 </figure> <br><br>
-- Diagrams give a high-level view of requirements: which business processes exist, how they are related, which stakeholders engage in them  
+- Diagrams give a high-level view of requirements: which business processes exist, how they are related, which stakeholders engage in them
 - Good for working with potential system users to identify requirements, diagrams are high-level and easy to understand
 
 ### Elements of Use Case Diagrams
