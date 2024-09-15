@@ -75,9 +75,26 @@
 
 ## Functional Requirements
 
+- Requirements that deal with the functionality of the system
+- *"A functional requirement relates directly to a process a system has to perform or information it needs to contain."* - Dennis et al
+- Focused on the specific tasks that the users are trying to accomplish (e.g., rent a video, check out a book from a library system, book a flight)
+- Can be higher-level or very detailed
+- User stories are *one way* of capturing these
+
 ## Non-Functional Requirements
 
+- Requirements that deal with properties or constraints of the system
+- *"Nonfunctional requirements refer to behavioral properties that the system must have, such as performance and usability."* - Dennis et al
+- Often focus on either the system being developed or the process used to develop the system
+- May cut across or induce multiple functional requirements
+- Will see these as non-functional attributes later
+
 ### Metrics
+
+- Should use metrics for non-functional requirements where possible
+- **Examples**
+    - transactions/second (speed), size in MB (size), time to find specific features on a page (ease of use), mean time to failure (reliability), availability (reliability), time to restart after failure (robustness), number of target systems for executable (portability)
+- This is useful, even in an *agile* context
 
 ## Traceability
 
