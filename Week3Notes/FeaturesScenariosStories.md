@@ -29,7 +29,6 @@
     5. [Features from the Product Vision](#features-from-the-product-vision)
     6. [The Feature List](#the-feature-list)
 11. [Innovation and Feature Identification](#innovation-and-feature-identification)
-12. [Exercises](#exercises)
 
 ## Software Products
 
@@ -255,4 +254,8 @@
 
 ## Innovation and Feature Identification
 
-## Exercises
+- Scenarios and user stories should always be your starting point for identifying product features
+    - Scenarios tell you how users work at the moment; They do not show how they might change their way of working if they had the right software to support them
+    - Stories and scenarios are "tools for thinking" and they can help gain and understanding of how your software might be used; You can identify a feature set from stories and scenarios
+- User research, on its own, rearely helps you innovate and invent new ways of working
+- You should also think creatively about alternative or additional features that help users to work more efficiently or to do things differently
