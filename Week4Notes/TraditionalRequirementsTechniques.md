@@ -48,7 +48,30 @@
 
 ## The World and the Machine
 
+- Problems we are trying to solve are generally rooted in the physical world
+- Our goal, in general, is to build some machine that will help to solve this problem
+- The world and the machine share some phenomena, while others are just in the world or just in the machine
+- **Examples**
+    - eCommerce Systems
+        - Delivery of products happen in the real world
+        - Creation of payment records in the database happens in the machine
+        - Payment notifications sent to sellers are a shared phenomenon: they are created by the machine, but can be monitored in the world
+    - Computerized Speed Monitoring
+        - Actual movement of a vehicle takes place in the real world, speed is a real-world phenomenon
+        - Monitoring of speed is a shared phenomenon: speed sensors operate in the world, readings are visible to the machine
+        - Machine can compute adjustments to speed, braking, etc. internally
+        - Machine can transmit braking signals through shared phenomenon, brakes operate in the real world
+
 ## System Environments
+
+- *System-as-is*
+    - the system that currently exists, which may or may not be computerized
+- *System-to-be*
+    - the system that will exist once the machine has been built
+- *Software-to-be*
+    - the software that is part of this system
+- *Environment*
+    - the surrounding world, which is also part of the system
 
 ## Functional Requirements
 
