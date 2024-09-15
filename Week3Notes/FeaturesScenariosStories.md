@@ -183,6 +183,16 @@
 
 ## Feature Identification
 
+- Your aim in the initial stage of product design should be to create a list of features that define your product
+- A feature is a way of allowing users to access and use your product's functionality so the feature list defines the overall functionality of the system
+- Features should be independent, coherent, and relevant:
+    - *Independence*
+        - Features should not depend on how other system features are implemented and should not be affected by the order of activation of other features
+    - *Coherence*
+        - Features should be linked to a single item of functionality; They should not do more than one thing and they should never have side effects
+    - *Relevance*
+        - Features should reflect the way that users normally carry out some task; They should not provide obscure functionality that is hardly ever required
+
 ## Feature Design
 
 ### Factors
