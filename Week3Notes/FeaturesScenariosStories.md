@@ -195,17 +195,63 @@
 
 ## Feature Design
 
+| **Knowledge Type**     | **Description**                                                                                                            |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| **User Knowledge**     | You can use user scenarios and user stories to inform the team of what users want and how they might use the software features. |
+| **Product Knowledge**  | You may have experience with existing products or decide to research what these products do as part of your development process. Sometimes your features have to replicate existing features in these products because they provide fundamental functionality that is always required. |
+| **Domain Knowledge**   | This is knowledge of the domain or work area (e.g., finance, event booking) that your product aims to support. By understanding the domain, you can think of new innovative ways of helping users do what they want to do. |
+| **Technology Knowledge** | New products often emerge to take advantage of technological developments since their competitors were launched. If you understand the latest technology, you can design features to make use of it. |
+
 ### Factors
+
+- Automation
+- Control
+- Familiarity
+- Functionality
+- Novelty
+- Simplicity
 
 ### Trade-Offs
 
+- **Simplicity and Functionality**
+    - You need to find a balance between providing a simple, easy-to-use system and including enough functionality to attract users with a variety of needs
+**Familiarity and Novelty**
+    - Users prefer that new software should support the familiar everyday tasks that are part of their work or life; Go encourage them to adopt your system, you need to find a balance between familiar features and new features that convince users that your product can do more than its competitors
+- **Automation and Control**
+    - Some users like automation, where the software performs automatic processes, but others perfer to have control; You have to think carefully about what can be automated, how it is automated, and how users can configure the automation so that the system can be tailored to their preferences
+
 ### Creep
+
+- **Feature Creep**
+    - occurs when new features are added in response to user requests without considering whether or not these features are generally useful or whether they can be implemented in some other way
+- Too many features make products hard to use and understand
+- Three reasons why feature creep occurs:
+    - Product managers are reluctant to say "no" when users ask for specific features
+    - Developers try to match features in competing products
+    - The product includes features to support both inexperienced and experienced users
+- There are a few questions we can ask to avoid feature creep:
+    - Does this feature really add anything new, or is it simply an alternative way of doing something that is already supported?
+    - Is this feature likely to be important to and used by most software users?
+    - Does this feature provide generic functionality or is it a very specific feature?
+    - Can this feature be implemented by extending an existing feature rather than adding another feature to the system?
 
 ### Derivation
 
+- Features can be identified directly from the priduct vision or from scenarios
+- You can highlight phrases in narrative description to identify features to be included in the software
+    - You should think about the features needed to support user actions, identified by active verbs, such as **use** and **choose**
+
 ### Features from the Product Vision
 
+- A feature that allows users to access and use existing web-based resources
+- A feature that allows the system to exist in multiple different instantiations
+- A feature that allows user configuration of the system to create a specific instantiation
+
 ### The Feature List
+
+- The output of the feature identification process should be a list of features that you use for designing and implementing your product
+- There is no need to go into a lot of detil about the features at this stage; You add detail when you are implementing the feature
+- You can describe features using a standard input-action-output template by using structured narrative descriptions or by a set of user stories
 
 ## Innovation and Feature Identification
 
