@@ -379,15 +379,75 @@
 
 <figure>
     <img src="https://thientanchuong.wordpress.com/wp-content/uploads/2012/11/usecase.jpg" alt="Elements of Use Case Diagrams" width="300">
-    <figcaption>Elements of Use Case Diagram Charts - thientanchuong</figcaption>
+    <figcaption>Elements of Use Case Diagram Chart - thientanchuong</figcaption>
 </figure>
 
 ## Identifying Major Use Cases
 
+- Identify the system boundaries - but be ready for this to change as you learn more about what the system will do
+- Identify primary actors and goals: what roles will use the system, what are they trying to accomplish?
+- Identify business processes and major use cases (based on these processes)
+- Review use cases: be prepared to merge or break apart use cases, aim for 3-9 in each system (currently working on only major cases)
+
 ## Activity Diagrams
+
+- Used for business process modeling
+- Describes activities and decision points in the process
+- Provides notation for the flow of data through the process, and for specific points where the process can proceed concurrently
+- Note: business processes often cut across multiple departments in a company, need to keep that in mind when gathering requirements!
 
 ### Elements of Activity Diagrams
 
+- **Object Nodes**
+    - represent data used by the process
+    - Note: this is often implicit, we generally do not call it out unless it is not obvious, for instance, if this is used by different, distant parts of the diagram (we can assume that the next step is given some data from the current step)
+- **Control Flows**
+    - show the order of execution in the diagram
+- **Object Flows**
+    - show how objects flow between activities or actions
+- **Initial Nodes**
+    - show where the process starts
+- **Final Activity Nodes**
+    - show where the process ends
+- **Final Flow Nodes**
+    - show where a specific control or object flow ends
+- **Decision Nodes**
+    - show where a process makes a decision, what that decision is based on (in square brackets)
+- **Merge Nodes**
+    - show where the flow comes back together
+- **Fork Nodes**
+    - split a process into multiple parallel/concurrent flows (i.e., parts where progress can be made on multiple fronts at once)
+- **Join Nodes**
+    - show where these flows rejoin
+
+<figure>
+    <img src="https://documentation.coremedia.com/cmcc-10/current/webhelp/workflow-developer-en/content/images/Workflow_ActivityDiagram_Elements_Dia.svg" alt="Elements of Activity Diagrams" width="300">
+    <figcaption>Elements of Activity Diagram Chart - Coremedia</figcaption>
+</figure>
+
 ## Business Process Modeling Best Practices
 
+- Be realistic: we cannot capture everything, and not everything is equally important
+- Be agile: define what we know rigorously, be ready to discover more information during the process
+- Work as teams, use whiteboards to start: this is a social activity, make it easy to collaborate and iterate
+- Stay focused: it is easy to get sidetracked
+- Remember, this is an abstraction!
+
 ## Guidelines for Creating Activity Diagrams
+
+- There should only be a single initial node
+- You should place this at the top or top left, this is not required but is standard
+- There should (usually) be a single final node
+- You should place this at the bottom or bottom right, again this is standard but not required
+- Most processes are sequential, make limited use of the final flow node
+- Only include the most important decisions, including too many can be confusing
+- Guiard conditions should be mutually exclusive (unambiguous) and complete (all cases should be covered)
+- Only include the most important forks and joins
+- Minimize line crossings
+- Lay out left-to-right or top-to-bottom in execution order
+- Minimize use of swimlanes
+- Challenge any activities with either no inflows or no outflows
+- **Black-Hole Activities**
+    - activities with no outflows
+- **Miracle Activities**
+    - activities with no inflows
