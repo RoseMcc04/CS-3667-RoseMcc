@@ -132,17 +132,67 @@
 
 ## Interviews
 
+- Generally one on one, but may be done as a group
+- Basic steps:
+    - Select interviewees
+    - Design interview questions
+    - Prepare for the interview
+    - Conduct the interview
+    - Post-interview follow-up
+
 ### Select Interviewees
+
+- Set up an interview schedule with attendees, purpose of each interview, times
+- Project sponsor, key users, team helps select people to interview
+- Should include both managers and lower-level worekrs
+- Note: this is an iterative process; You will find you should interview new people as you progress and get more information about the system
 
 ### Design Interview Questions
 
+- **Closed-Ended Questions**
+    - questions that require a specific answer, used when specific, precise information is needed
+- **Open-Ended Questions**
+    - questions that leave room for elaboration, used to gather richer information, give the interviewee more control over what is said
+- **Probing Questions**
+    - follow-up, clarification questions, give the interviewee room to elaborate, shows the person being interviewed that you are listening
+- Do not ask questions with readily available answers!
+- Process tends to begin with unstructured interviews, more open-ended questions
+- Later, more structures interviews, more closed-ended questions, more well-structured question sets
+- **Top-Down Interview**
+    - start with broad questions, zoom in on specifics (this is the typical style)
+- **Bottom-Up Interview**
+    - start with specific questions, zoom out (not typical, but may be used to fill in gaps of knowledge)
+
 ### Prepare for the Interview
+
+- Prepare for an interview in the same way you would prepare for a presentation
+    - Have a plan, including a list of questions in an appropriate order, and think about possible answers and follow-ups
+    - Identify transitions between topics
+    - Confine the interview to areas the interviewee should know about
+- Do not wing it! Prepare in advance, versus just asking general, open-ended questions
+- Prepare the interviewee, send info in advance
 
 ### Conduct the Interview
 
+- Describe the purpose of the interview
+- Write down everything! Feel free to ask the interviewee to pause
+- Before recording, check corporate policies and make sure the interviewee is comfortable (can be stressful to be recorded)
+- Feel free to ask questions, identify and follow up on jargon
+- Separate facts from opinions
+- Give interviewee time to ask questions
+- End with a summary of how information will be used, next steps
+
 ### Post-Interview Follow-Up
 
+- Create a report of the interview
+- Send this to interviewee, ask for feedback on any needed clarification or updates
+- How soon after the interview should you write up the notes? 
+    - Usually should be within 48 hours; more likely to forget information after this period
+
 ### Interviewing Challenges
+
+- Interviewees may used specialized language that you do not know or (potentially worse) think means something it does not
+- Interviewees may not mention important parts of requirements if they think those are unimportant or if they do not think of them (may be hard to articulate, may be something they do without even thinking about it)
 
 ## Questionnaires
 
