@@ -153,7 +153,25 @@
 
 ## User Stories
 
+- Scenarios are high-level stories of system use; They should describe a sequence of interactions with the system but should not include details of these interactions
+- User stories are finer-grain narratives that set out in a more detailed and structured way *a **single** thing that a user wants from a software system*
+    - From Sommerville: *"As an author, I need a way to organize the book that I'm writing into chapters and sections."*
+- This story reflects what has become the standard format of a user story:
+    - *As a* <role>, I <want | need> to <do something>
+        - *As a teacher, I want to tell all members of my group when new information is available*
+- A variant of this standard format adds a justification for the action:
+    - *As a* <role> I <want | need> to <do something> *so that* <reason>
+        - *As a teacher, I need to be able to report who is attending a class trip so that the school maintains the required health and safety records*<br>
+
+- An important part of user stories is in planning
+    - Many users of the Scrum method represent the product backlog as a set of user stories
+- User stories should focus on a clearly defined system feature or aspect of a feature that can be implemented within a single sprint
+- If the story is about a more complex feature that might take several sprints to implement, then it is called an *epic*
+
 ### Feature Description Using User Stories
+
+- Stories can be used to describe features in your product that should be implemented
+- Each feature can have a set of associated stories that describe how that feature is used
 
 ### Stories and Scenarios
 
