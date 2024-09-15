@@ -196,7 +196,36 @@
 
 ## Questionnaires
 
+- Common technique, especially when users are outside the organization or are geographically dispersed
+- Can either be electronic or paper-based
+- Select participants
+    - Generally a subset of possible participants
+    - Sampling techniques used to select people
+    - Need to plan for lower participation: paper questionnaires often returned by only 30-50%, web-based 5-30%
+- Design the questionnaire
+    - Focus on closed-ended questions with little room for ambiguity
+    - Opinion questions can ask for level of agreement
+    - Factual questions look for specific information
+    - Test drive first! Helps remove ambiguity
+- Administer the questionnaire
+    - Key challenge: getting people to return it
+    - Explaining how it will be used, setting a fixed return date, offering to supply a summary of the results, and giving away free stuff all help
+    - Inside the org, can also track who has, or has not, completed it
+- Follow-up
+    - Summarize results shortly after questionnaires returned
+    - Helps requirements to proceed quickly, allows results to be provided to interested respondents
+
 ### Good Questionnaire Design
+
+- Begin with nonthreatening and interesting questions
+- Group items into logically coherent sections
+- Do not put important items at the very end of the questionnaire
+- Do not crowd a page with too many items
+- Avoid abbreviations
+- Avoid biased or suggestive items or terms
+- Number questions to avoid confusion
+- Pretest the questionnaire to identify confusing questions
+- Provide anonymity to respondants
 
 ## Document Analysis
 
