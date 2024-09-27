@@ -35,11 +35,33 @@
 
 ## Introducing Design Patterns
 
+*"Each pattern describes a problem which occurs over and over again in our environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it in the same way twice."* - Christopher Alexander, *A Pattern Language*
+
 ### What is a design pattern?
+
+- **Design Pattern**
+    - a way of reusing abstract knowledge about a problem and its solution
+- **Pattern**
+    - a description of the problem and the essence of its solution
+- It should be sufficiently abstract to be reused in different settings!
+- Note: *patterns generally make heavy use of OO features like inheritance and polymorphism, so most work on patterns has been in the OO context (not C, Lisp, etc.)*
 
 ### What makes up a design pattern?
 
+- **Pattern name**
+    - used to discuss the pattern
+- A description of the **problem**
+- A description of the **solution** to the problem, described in terms of design elements, relationships between these elements, responsibilities, and collaborations, but not in terms of *concrete* solutions (this should be reusable!)
+- The **consequences** (good and bad) of using the pattern
+
 ### A sample pattern: Observer
+
+- **Name:** Observer
+- **Problem Description:** Multiple displays of the same state are needed
+- **Solution Description:** A subject contains state and allows observers to register their interest in state changes. Changes to the state result in an update message to each registered observer. The observers all implement a standard interface. 
+- **Consequences:** Low coupling, but performance could suffer because the subject does not know details of the observer.
+
+![Observer Pattern](https://sourcemaking.com/files/v2/content/patterns/Observer.png)
 
 ## Categories of Patterns
 
