@@ -178,7 +178,13 @@
 
 ### What is refactoring?
 
+- *"Code refactoring is the process of restructuring existing computer code ... changing the factoring ... without changing its external behavior."* - ![Refactoring Wikipedia](https://en.wikipedia.org/wiki/Code_refactoring)
+
 ### What is not refactoring?
+
+- Adding new functionality to a program
+- Fixing bugs
+- Is changing a program to use safer libraries refactoring? Why or why not?
 
 ### Origins of Refactoring
 
