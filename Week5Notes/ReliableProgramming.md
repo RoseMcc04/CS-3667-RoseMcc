@@ -9,7 +9,7 @@
     3. [A sample pattern: Observer](#a-sample-pattern-observer)
 2. [Categories of Patterns](#categories-of-patterns)
     1. [The Factory Pattern](#the-factory-pattern)
-        1. [Where should you use a factory?](#where-should-you-use-a-factory)
+        1. [Where should you use a factory?](#when-should-you-use-a-factory)
     2. [The Singleton Pattern](#the-singleton-pattern)
         1. [Why the singleton pattern?](#why-the-singleton-pattern)
     3. [The State Pattern](#the-state-pattern)
@@ -79,7 +79,22 @@
 
 ### The Factory Pattern
 
-#### Where should you use a factory?
+- This is a *creational pattern*
+- A **factory method** creates an object
+![Factory Method Image](https://sourcemaking.com/files/v2/content/patterns/Factory_Method.png)
+- A **factory class** provides a number of factory methods
+- Related concept: *an **abstract factory** creates families of related objects, with different instances for different families*
+![Abstract Factory Class Image](https://sourcemaking.com/files/v2/content/patterns/Abstract_Factory.png)
+
+#### When should you use a factory?
+
+- If you want to abstract from the specific implementation
+- If you have related families of types and want to ensure they are consistently related
+- Related concept: **builder**
+![Builder Image](https://sourcemaking.com/files/v2/content/patterns/Builder_example1.png)
+- Related concept: **prototype**
+    - Note: *actually used in some languages in place of classes (e.g., JavaScript)*
+![Prototype Image](https://sourcemaking.com/files/v2/content/patterns/Prototype_example1.png)
 
 ### The Singleton Pattern
 
