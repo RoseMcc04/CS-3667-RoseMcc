@@ -65,6 +65,18 @@
 
 ## Categories of Patterns
 
+- **Creational Patterns**
+    - Patterns that deal with how objects are created
+![Creational Pattern Example](https://sourcemaking.com/files/v2/content/patterns/Abstract_Factory_example1.png)
+
+- **Structural Patterns**
+    - Patterns that deal with relationships between entities
+![Structural Pattern Example](https://sourcemaking.com/files/v2/content/patterns/Decorator-preview-2x.png)
+
+- **Behavioral Patterns**
+    - Patterns that exemplify common communication patterns between objects
+![Behavioral Pattern Example](https://sourcemaking.com/files/v2/content/patterns/Interpreter_example1.png)
+
 ### The Factory Pattern
 
 #### Where should you use a factory?
