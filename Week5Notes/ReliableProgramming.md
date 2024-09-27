@@ -98,11 +98,36 @@
 
 ### The Singleton Pattern
 
+- This is a *creational pattern*
+- **Challenge**
+    - we want to ensure we only have one instance of a given class available and make it easily available
+![Singleton Example Pic](https://sourcemaking.com/files/v2/content/patterns/Singleton_example1.png)
+- **Solution**
+    - use a factory method (note: these are static, why?) to create the object and make the constructor private
+- This may create the obejct in advance, or it may do so lazily, waiting until it is forst needed
+
 #### Why the singleton pattern?
+
+- Lower memory usage
+- Ability to choose appropriate class to instantiate at runtime
+- Ability to properly set up this class (since we do not just use the constructor)
+- Can make the instance globally available
 
 ### The State Pattern
 
+- This is a *behavioral pattern*
+- **Challenge**
+    - use different representations at different times for the same data type
+- **Solution**
+    - separate the *context*, representing the data type from the *state type*, representing the internal state (e.g., a List type, with state for an empty list, a single value, or an arbitrary numbero of values)
+![State Pattern Image](https://sourcemaking.com/files/v2/content/patterns/State_example1.png)
+
 ### The Composite Pattern
+
+- This is a *structural pattern*
+- Used for tree-like structures, hierarchies with internal and leaf nodes: file systems (directories, files), GUIs, programming languages (expressions with sub-expressions, literals), etc.
+- Abstract base class defines expected behavior, internal nodes handle children, internal nodes and leaf nodes both implement behavior
+![Composite Pattern Image](https://sourcemaking.com/files/v2/content/patterns/Composite_example1.png)
 
 ### The Interpreter Pattern
 
