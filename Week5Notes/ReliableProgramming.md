@@ -235,12 +235,36 @@
 
 ### The Two Challenges
 
+- What two challenges do you see with actually doing refactoring?
+    - Challenge 1: How do we know where to refactor (and can we automate this)?
+    - Challenge 2: How do we know a refactoring is safe (and can we automate this)?
+
 #### Dealing with Challenge 1: Code Smells
+
+- A funny phrase for structures or patterns in the code that "suggest...the possibility of refactoring"
+- Note: *these are not bugs!*
+- They are structural problems in the code that could make it harder to ensure quality and evolve the system over time
 
 ##### Examples of Code Smells
 
+- Duplicated code
+- Longer methods
+- Larger classes
+- Divergent changes
+- Shotgun surgery
+- Feature envy
+
 ##### How do we detect code smells?
+
+- Manually: this is a matter of gaining experience
+- Automatically: many tools now attempt to do this, but this is not an easy problem (why?)
 
 #### Dealing with Challenge 2: Program Analysis
 
+- Program analysis lets us encode rules about when a refactoring is safe (preconditions, invariants) and check these on the code
+- Not easy! And some languages are harder than others
+
 ## The Importance of Testing
+
+- We need a way to ensure our changes do not break anything ... and we will be making lots of changes!
+- Automated testing gives us confidence that we are not breaking anything when we change the code!
