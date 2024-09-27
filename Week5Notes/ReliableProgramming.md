@@ -23,8 +23,9 @@
     2. [What is not refactoring?](#what-is-not-refactoring)
     3. [Origins of Refactoring](#origins-of-refactoring)
         1. [Origin 1: Griswold and Notkin](#origin-1-griswold-and-notkin)
-        2. [Origin 2: Opdyke and Johnson](#origin-2-opdyke-and-johnson)
-        3. [Restructure: Some Points](#restructure-some-points)
+        2. [Restructure: Some Points](#restructure-some-points)
+        3. [Origin 2: Opdyke and Johnson](#origin-2-opdyke-and-johnson)
+        4. [Origin 2: Some Points](#origin-2-some-points)
     4. [Differences in Approaches](#differences-in-approaches)
     5. [The Two Challenges](#the-two-challenges)
         1. [Dealing with Challenge 1: Code Smells](#dealing-with-challenge-1-code-smells)
@@ -178,7 +179,7 @@
 
 ### What is refactoring?
 
-- *"Code refactoring is the process of restructuring existing computer code ... changing the factoring ... without changing its external behavior."* - ![Refactoring Wikipedia](https://en.wikipedia.org/wiki/Code_refactoring)
+- *"Code refactoring is the process of restructuring existing computer code ... changing the factoring ... without changing its external behavior."* - [Refactoring Wikipedia](https://en.wikipedia.org/wiki/Code_refactoring)
 
 ### What is not refactoring?
 
@@ -188,13 +189,49 @@
 
 ### Origins of Refactoring
 
+- Unclear where the term first came from
+- Also unclear when it first started - to some extent, people have been refactoring for as long as they have been programming
+- Two research pairs focused on this and made it promiment:
+    - Griswold and Notkin (University of Washington)
+    - Opdyke and Johnson (University of Illinois at Urbana-Champaign)
+
 #### Origin 1: Griswold and Notkin
 
-#### Origin 2: Opdyke and Johnson
+- Motivating problem: how do we modify deployed applications?
+    - Initial solution allowed functionality to be added to extend the app
+    - Results in a different architecture than what would have been created if extensions known in advance (why?)
+- Question: can a program be restructured in a way that changes the design but does not change the behavior?
+- Result was the Restructure tool for refactoring scheme
 
 #### Restructure: Some Points
 
+- Restructure worked over Program Dependence Graphs (PDGs), which encode control and data flow dependencies
+    - Control flow: loops, conditionals, etc.
+    - Data flow: how data flows through program statements, which data reaches what places
+- Guarded transformations: must meet preconditions first
+- Refactoring as graph transformation
+
+#### Origin 2: Opdyke and Johnson
+
+- Motivating problem: how do we evolve real software?
+- Opdyke wanted a "macro" focus, but Johnson had a "micro" focus
+- This resulted in evolution (macro) through a sequence of small (micro) changes
+- One big question: how do we reuse abstractions that are tangled with specifics of the application domain?
+- Approach: mine actual changes from existing software
+
+#### Origin 2: Some Points
+
+- Decided to focus on C++, not Smalltalk (why?)
+- Came iip with a collection of transformations, some bigger and some very focused
+- Investigated safe application: refactoring should not change meaning of code (deciding which to apply still being investigated)
+- Approach based on code equivalence, cannot change meaning - not decidable in general, but often is in real systems
+- Equivalence based on invariants of transformation
+
 ### Differences in Approaches
+
+- Griswold: focused on the semantics, what it means for a refactoring to be meaning-preserving
+- Opdyke: focused more on OO aspects and real-world systems, e.g., pushing methods up and down the inheritance hierarchy
+- Many other tools and systems for this now, with support for lots of languages and some fairly involved refactoring scripts
 
 ### The Two Challenges
 
