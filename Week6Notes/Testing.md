@@ -191,8 +191,32 @@
 
 ## System and Release Testing
 
+- System testing involves testing the system as a whole, rather than the inividual system features
+- System testing should focus on four things:
+    - Testing to discover if there are unexpected and unwanted interactions between the features of a system
+    - Testing to discover if the system features work together effectively to support what users really want to do with the system
+    - Testing the system to make sure it operates in the expected way in the differentt environments where it will be used
+    - Testing the responsiveness, throughput, security, and other quality attributes of the system
+
 ## Scenario-Based Testing
+
+- The best way to systematically test a system is to start with a set of scenarios that describe possible uses of the system and then work through these scenarios each time a new version of the system is created
+- Using the scenario, you identify a set of end-to-end pathways that users might follow when using the system
+- An end-to-end pathway is a sequence of actions from starting to use the system for the task, through to completion of the task 
 
 ## Release Testing
 
+- Release testing is a type of system testing where a system that is intended for release to customers is tested
+- The fundamental differences between release testing and system testing are:
+    - Release testing tests the system in its real operational environment rather in a test environment. Problems commonly arise with real user data, which is sometimes more complex and less reliable than test data
+    - The aim of release testing is to decide if the system is good enough to release, not to detect bugs in the system. Therefore, some tests that "fail" may be ignored if these hav minimal consequences for most users
+- Preparing a system for release involves packaging that system for development (e.g. in a container if it is a cloud service) and installing software and libraries that are used by your product. You must define configuration parameters such ad the name of a roott directory, the database size limit per user, and so on
+
 ## Code Reviews
+
+- Code reviews involve one or more people examining the code to check for errors and anomalies and discussing issues with the developer
+- If problems are identified, it is the developer's responsibility to change the code to fix the problems
+- Code reviews complimnt testing. They are effective in finding bugs that arise through misunderstandings and bugs that may only arise when unusual sequences of code are executed
+- Many software companies insist that all code has to go through a process of code review before it is integrated into the product codebase
+
+![Code Review Diagram](https://www.researchgate.net/publication/328541762/figure/fig1/AS:686040184528896@1540576134082/Overview-of-the-Code-Review-Process.png)
