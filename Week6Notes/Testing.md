@@ -57,11 +57,34 @@
 
 ### Failures
 
+- A failure occurs when the program fails to perform a required function or fails to perform it within specified limits (ISO/IEC/IEEE 24765)
+- *Note: see page 139 of the standards doc*
+
 ### Faults, Defects, and Errors
+
+- A fault (we often call it a bug) is unearthed when a failure occurs, but can also refef it to an undiscovered problem in the program (ISO/IEC/IEEE 24765, p140)
+- *"If a tree falls in the forest..."*
+- Put these together: software failures and faults
+- Defect: umbrella category for failures and faults
+- Error: human action that produces an incorrect result
 
 ## Levels of Testing
 
+- Unit testing
+    - *"Unit testing verifies the functioning in isolation of software pieces which are separately testable. Depending on the context, these could be the inividual subprograms or a larger component made of tightly related units."*
+- Integration testing
+    - *"the process of verifying the interaction between software components", generally done at different levels, focused on different subsystems, versus all at once*
+- System testing
+    - *"concerned with the behavior of a whole system", gives an opportunity to also test non-functional properties (e.g., performance)*
+
 ## Purposes of Testing
+
+| Test Type                  | Testing Goals                                                                                  |
+|----------------------------|-----------------------------------------------------------------------------------------------|
+| Functional testing          | Test the functionality of the overall system. The goals are to find bugs and ensure the system is fit for its intended purpose. |
+| User testing                | Ensure the software is useful and usable by end-users. Demonstrate that users understand how to use the features effectively.     |
+| Performance and load testing| Test the system's response time, processing speed, and ability to handle expected user loads. Show that the system scales gracefully under load. |
+| Security testing            | Ensure the system maintains integrity and protects user information from theft or damage.                                          |
 
 ## Why Automate?
 
