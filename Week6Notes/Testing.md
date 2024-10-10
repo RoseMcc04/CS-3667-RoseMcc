@@ -33,7 +33,25 @@
 
 ## What is Software Testing?
 
+- Let's open the SWEBOK *(Software Engineering Body of Knowledge)*
+- *"Software testing consists of the dynamic verification that a program provides expected behaviors on a finite set of test cases, suitably selected from the usually infinite execution domain."*
+
 ## Software Testing: Important Points
+
+- *"Software testing consists of the **dynamic** verification that a program provides expected behaviors on a finite set of test cases, suitably selected from the usually infinite execution domain."*
+    - Dynamic: testing involves running the program, gives *inputs* and some *program state*
+    - Inputs: what values do we give to the running part of the system?
+    - Program state: what should be true of the world (including the system) when the test is run?
+        - *Examples: is a user already logged in? are there items in the shopping cart?*
+    - Finite: the number of needed tests could be many more than we can realistically run, or could even be infinite
+        - So, we only run a certain number of tests
+    - Goal: tests we run use a representative set of values - we want a test to represent many different inputs, since we cannot test them all
+    - Selected: since we have only finite time, and can only run a finite number of tests, we need to select which tests to run
+        - Different testing methodologies give us different ways of selecting tests
+        - How should we select tests?
+        - What impact does this have?
+    - Expected: we need a way to know if a test is correct, so we have to compare what happens when we run the test against what should happen
+        - Is this easy? Hard? What factors influence this? Why may it be hard (you wrote the code, why wouldn't you know what it is supposed to do?)
 
 ## Terminology
 
