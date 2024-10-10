@@ -143,9 +143,24 @@
 
 ## Test Cases and Testing Frameworks
 
+- Testing Framework: JUnit, PHPUnit, Casperjs, Esprsso, etc. - a framework (tool or set of tools) for automating testing
+- Test Case: set of related test methods
+- Test Method: a specific test to execute
+- Note: this does not seem to be standard, a test case used to be what we now call a test method (smallest unit of testing), this may be inconsistent in what you are reading, so check! (These terms are from JUnit)
+- Test Suite: all the test cases we want to run
+
 ## Keeping Unit Tests Atomic
 
+- One challenge in setting up fixture: how do we model other components with complex state and behavior?
+- Want to be able to test code independently of other classes
+- Any ideas?
+
 ## Mocks/Test Doubles
+
+- One challenge in setting up fixture: how do we model other components with complex state and behavior?
+- Want to be able to test code independently of other classes
+- Want repeatable tests
+- What if we could create "fake" instances of classes that be
 
 ## Unit Testing
 
