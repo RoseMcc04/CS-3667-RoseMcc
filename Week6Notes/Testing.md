@@ -11,25 +11,25 @@
 4. [Levels of Testing](#levels-of-testing)
 5. [Purposes of Testing](#purposes-of-testing)
 6. [Why Automate?](#why-automate)
-7. [Why might automation be difficult?](#why-might-automation-be-difficult)
-8. [Automation Challenges](#automation-challenges)
-9. [Standard Automation Testing Steps](#standard-automated-testing-steps)
-    1. [Fixture Setup](#fixture-setup)
-    2. [Exercise SUT](#exercise-sut)
-    3. [Result Verification](#result-verification)
-    4. [Fixture Teardown](#fixture-teardown)
-10. [Test Cases and Testing Frameworks](#test-cases-and-testing-frameworks)
-11. [Keeping Unit Tests Atomic](#keeping-unit-tests-atomic)
-12. [Mocks/Test Doubles](#mockstest-doubles)
-13. [Unit Testing](#unit-testing)
+    1. [Why might automation be difficult?](#why-might-automation-be-difficult)
+    2. [Automation Challenges](#automation-challenges)
+    3. [Standard Automation Testing Steps](#standard-automated-testing-steps)
+        1. [Fixture Setup](#fixture-setup)
+        2. [Exercise SUT](#exercise-sut)
+        3. [Result Verification](#result-verification)
+        4. [Fixture Teardown](#fixture-teardown)
+8. [Test Cases and Testing Frameworks](#test-cases-and-testing-frameworks)
+9. [Keeping Unit Tests Atomic](#keeping-unit-tests-atomic)
+10. [Mocks/Test Doubles](#mockstest-doubles)
+11. [Unit Testing](#unit-testing)
     1. [White Box vs. Black Box Testing](#white-box-vs-black-box-testing)
     2. [Coming up with Tests](#coming-up-with-tests)
-14. [Equivalence Partitioning and Boundary Analysis](#equivalence-partitioning-and-boundary-analysis)
+12. [Equivalence Partitioning and Boundary Analysis](#equivalence-partitioning-and-boundary-analysis)
     1. [Equivalence Partitions](#equivalence-partitions)
-15. [System and Release Testing](#system-and-release-testing)
-16. [Scenario-Based Testing](#scenario-based-testing)
-17. [Release Testing](#release-testing)
-18. [Code Reviews](#code-reviews)
+13. [System and Release Testing](#system-and-release-testing)
+14. [Scenario-Based Testing](#scenario-based-testing)
+15. [Release Testing](#release-testing)
+16. [Code Reviews](#code-reviews)
 
 ## What is Software Testing?
 
@@ -88,19 +88,19 @@
 
 ## Why Automate?
 
-## Why might automation be difficult?
+### Why might automation be difficult?
 
-## Automation Challenges
+### Automation Challenges
 
-## Standard Automated Testing Steps
+### Standard Automated Testing Steps
 
-### Fixture Setup
+#### Fixture Setup
 
-### Exercise SUT
+#### Exercise SUT
 
-### Result Verification
+#### Result Verification
 
-### Fixture Teardown
+#### Fixture Teardown
 
 ## Test Cases and Testing Frameworks
 
