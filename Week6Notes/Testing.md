@@ -18,18 +18,18 @@
         2. [Exercise SUT](#exercise-sut)
         3. [Result Verification](#result-verification)
         4. [Fixture Teardown](#fixture-teardown)
-8. [Test Cases and Testing Frameworks](#test-cases-and-testing-frameworks)
-9. [Keeping Unit Tests Atomic](#keeping-unit-tests-atomic)
-10. [Mocks/Test Doubles](#mockstest-doubles)
-11. [Unit Testing](#unit-testing)
+7. [Test Cases and Testing Frameworks](#test-cases-and-testing-frameworks)
+8. [Keeping Unit Tests Atomic](#keeping-unit-tests-atomic)
+9. [Mocks/Test Doubles](#mockstest-doubles)
+10. [Unit Testing](#unit-testing)
     1. [White Box vs. Black Box Testing](#white-box-vs-black-box-testing)
     2. [Coming up with Tests](#coming-up-with-tests)
-12. [Equivalence Partitioning and Boundary Analysis](#equivalence-partitioning-and-boundary-analysis)
+11. [Equivalence Partitioning and Boundary Analysis](#equivalence-partitioning-and-boundary-analysis)
     1. [Equivalence Partitions](#equivalence-partitions)
-13. [System and Release Testing](#system-and-release-testing)
-14. [Scenario-Based Testing](#scenario-based-testing)
-15. [Release Testing](#release-testing)
-16. [Code Reviews](#code-reviews)
+12. [System and Release Testing](#system-and-release-testing)
+13. [Scenario-Based Testing](#scenario-based-testing)
+14. [Release Testing](#release-testing)
+15. [Code Reviews](#code-reviews)
 
 ## What is Software Testing?
 
@@ -88,19 +88,58 @@
 
 ## Why Automate?
 
+- Run more quickly
+- Run more often (enabled by the previous point)
+- Integrate with standard build process (part of many agile methods)
+- Use tests as lightweight specifications of behavior, build programs around tests (TDD)
+- Provide almost real-time checks with distributed project teams (continuous integration)
+- Ensure changes do not break existing code, old bugs do not reappear
+
 ### Why might automation be difficult?
+
+- *Not sure, let's look at the challenges*
 
 ### Automation Challenges
 
+- Poor software decomposition
+- Difficulty in providing test oracles
+- Difficulty in testing systems with complex interactions (how do you test components that rely on many other components?)
+- How do you simulate interfacts meant for humans (GUIs in desktop apps, web-based interfaces)
+- Any others?
+
 ### Standard Automated Testing Steps
+
+- Fixture Setup
+- Exercise SUT
+- Result Verification
+- Fixture Teardown
 
 #### Fixture Setup
 
+- Simple code may just need to be called
+- What happens when we have more complicated code with more dependencies?
+- A test fixture provides the context needed to execute the code
+- *"Everything a system under test (SUT) needs to have in place so that we can exercise the SUT for the purpose of verifying its behavior.", xUnit Test Patterns: Refactoring Test Code*
+
 #### Exercise SUT
+
+- SUT = System Under Test
+- This is the part of the system we are actually testing (a specific method, an entire class, a component consisting of multiple classes, or the entire system)
+- This part of the system is exercised (i.e., run) by a test case
+- The testing framework collects the results of the test
 
 #### Result Verification
 
+- During execution, need to collect information needed to know if SUT works correctly
+- Result verification = checking to ensure the result is correct
+- Test oracle: determines if test is correct
+- As we mentioned above, finding a suitable oracle is not always easy...
+
 #### Fixture Teardown
+
+- After execution and verification, need to clean up, set state back to what it was at the start
+- This process is called "fixture teardown"
+- What challenges can this bring?
 
 ## Test Cases and Testing Frameworks
 
