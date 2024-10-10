@@ -166,11 +166,28 @@
 
 ### White Box vs. Black Box Testing
 
+- White box testing: testing based on characteristics of the code
+- Black box testing: testing based on the specification of the code
+- *Note: If you want to measure how much of the code you actually test, you need to use white-box techniques*
+
 ### Coming up with Tests
+
+- Start with requirements: should have at least one test per requirement (why?)
+- Also look at design, each major design concern should be included
+- Use information on code structure (see below) to make sure tests are effective at exercising code
+- Keep a checklist of standard errors - learn from prior experience 
 
 ## Equivalence Partitioning and Boundary Analysis
 
+- *Do we need to test every possible value?*
+- Not usually, this would be prohibitive
+- Say we have three possible behaviors, one when the input is < 0, one when the input is 0 <= input <= 100, and one when the input is > 100
+- Equivalence partitioning: uses concept of equivalence classes, we can treat values in same class as equivalent, no need to test each
+- Boundary analysis: focus specifically on boundary values, what are they for this example?
+
 ### Equivalence Partitions
+
+![Equivalence Partition Diagram](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEYBpB6ESGsCr41h0OXGPmtn_BRSGvZr_mIQ&s)
 
 ## System and Release Testing
 
