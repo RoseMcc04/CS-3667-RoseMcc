@@ -30,7 +30,20 @@
 
 ## Software Support
 
+- Traditionally, separate teams were respinsible for software development, software
+  release, and software support 
+- The development team passed over a "final" version of the software to a release 
+  team; This team then built a release version, tested this, an prepared release 
+  documentation before releasing the software to customers
+- A third team was responsible for providing customer support 
+    - The original development team were sometimes also responsible for implementing 
+      software changes
+    - Alternatively, the software may have been maintained by a separate "maintenance 
+      team"
+
 ## Development, Release, and Support
+
+![Diagram](https://devopscube.com/wp-content/uploads/2020/04/releast-management-architecture-min-1024x634.png)
 
 ## DevOps
 
