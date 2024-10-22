@@ -47,9 +47,28 @@
 
 ## DevOps
 
+- DevOps (Development + Operations) was developed to speed the release and support process up
+- Three factors led to the development and adoption of DevOps:
+    - Agile software engineering reduced the development time for software, but the traditional release process introduced a bottleneck between development and deployment
+    - Amazin re-engineered their software around services and introduced an approach in which a service was developed and supported by the same team; Amazon's claim that this led to significant improvements in reliability was widely publicized
+    - It became possible to release software as a service (SaaS), running on a public or private cloud; Software products did not have to be released to users on physical media or downloads
+
 ### DevOps Principles
 
+| Principle                                | Explanation                                                                                                        |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| Everyone is responsible for everything.  | All team members have joint responsibility for developing, delivering, and supporting the software.                 |
+| Everything that can be automated should be automated. | All activities involved in testing, deployment, and support should be automated if it is possible to do so. There should be minimal manual involvement in deploying software. |
+| Measure first, change later.             | DevOps should be driven by a measurement program where you collect data about the system and its operation. You then use the collected data to inform decisions about changing DevOps processes and tools. |
+
 ### Benefits of DevOps
+
+| Benefit                | Explanation                                                                                                                                          |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Faster deployment       | Software can be deployed to production more quickly because communication delays between the people involved in the process are dramatically reduced. |
+| Reduced risk            | The increment of functionality in each release is small, so there is less chance of feature interactions and other changes that cause system failures and outages. |
+| Faster repair           | DevOps teams work together to get the software up and running again as soon as possible. There is no need to discover which team was responsible for the problem and to wait for them to fix it. |
+| More productive teams   | DevOps teams are happier and more productive than the teams involved in the separate activities. Because team members are happier, they are less likely to leave to find jobs elsewhere. |
 
 ## Code Management
 
