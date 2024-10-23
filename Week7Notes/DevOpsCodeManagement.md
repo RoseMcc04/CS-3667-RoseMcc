@@ -207,8 +207,35 @@ As well as reducing costs and time required for integration, deployment, and del
 
 ## Continuous Delivery and Deployment
 
+- Continuous integration means creating an executable version of a software system whenever a change is made to the repository; The CI tool builds the system and runs tests on youe development computer or project integration server
+- However, the real environment in which software runs will inevitably be different from your own development system
+- When your software runs in its real, operational environment, bugs may be revealed that did not show up in the test environment
+- Continuous delivery means that, after making changes to a system, you ensure that the changed system is ready for delivery to customers
+- This means that you have to test it in a production environment to make sure that environmental factors do not cause system failures or slow down its performance
+
+![Image](https://www.researchgate.net/publication/287723351/figure/fig2/AS:580514571407361@1515416867820/Architecture-of-information-server-cluster-based-on-network-sensors_Q320.jpg)
+
 ### Benefits of Continuous Deployment
+
+| Benefit                | Explanation                                                                                                                                                             |
+|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Reduced costs          | If you use continuous deployment, you have no option but to invest in a completely automated deployment pipeline. Manual deployment is a time-consuming and error-prone process. Setting up an automated system is expensive and takes time, but you can recover these costs quickly if you make regular updates to your product. |
+| Faster problem solving  | If a problem occurs, it will probably affect only a small part of the system and the source of that problem will be obvious. If you bundle many changes into a single release, finding and fixing problems are more difficult. |
+| Faster customer feedback | You can deploy new features when they are ready for customer use. You can ask them for feedback on these features and use this feedback to identify improvements that you need to make. |
+| A/B testing            | This is an option if you have a large customer base and use several servers for deployment. You can deploy a new version of the software on some servers and leave the older version running on others. You then use the load balancer to divert some customers to the new version while others use the older version. You can measure and assess how new features are used to see if they do what you expect. |
 
 ## DevOps Measurement
 
+- After you have adopted DevOps, you should try to continuously improve your DevOps process to achieve faster deployment of better-quality software
+- There are four types of software development measurement:
+    - **Process measurement**: You collect and analyze data about your development, testing, and deployment processes
+    - **Service measurement**: You collect and analyze data about the software's performance, reliability, and acceptability to customers
+    - **Usage measurement**: You collect and analyze data about how customers use your product
+    - **Business success measurement**: You collect and analyze data about how your product contributes to the overall success of the business
+
 ### Automating Measurement
+
+- As far as possible, the DevOps principle of automating everything should be applied to software measurement
+- You should instrument your software to collect data about itself and you should use a monitoring system to collect data about your software's performance and availability
+- Some process measurements can also be automated
+    - However, there are problems in process measurement because people are involved; They work in different ways, may record information differently, and are affected by outside influences that affect the way they work
