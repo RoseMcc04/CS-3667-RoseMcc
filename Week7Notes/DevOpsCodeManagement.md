@@ -135,11 +135,31 @@ jobs.*
 
 ### Git
 
+- In 2005, Linus Torvalds, the developer of Linux, revolutionized source code management by developing a distributed version control system (DVCS) called Git to manage the code of the Linux kernel
+- This was geared toward large-scale open-source development; It took advantage of the fact that storage costs had fallen to such an extent that most users did not have to be concerned with local storage management
+- Instead of only keeping the copies of the files that users are working on, Git maintains a clone of the repository on every user's computer
+
 #### Repository Cloning in Git
+
+![Image](https://preview.redd.it/nm1w0gnf2zh11.png?width=1080&crop=smart&auto=webp&s=f793be53fbc0246cecc4d865b2ea479d5ea57e94)
 
 ### Distributed Code Management Benefits
 
+- Resilience
+    - Everyone working on a project has their own copy of the repository; If the shared repository is damaged or subjected to a cyberattack, work can continue, and the clones can be used to restore the shared repository; People can work offline if they do not have a networking connection
+- Speed
+    - Committing changes to the repository is a fast, local operation and does not need data to be transferred over the network
+- Flexibility
+    - Local experimentation is much simpler; Developers can safely experiment and try different approaches without exposing these to other project members; With a centralized system, this may only be possible by working outside the code management system
+
 ### Branching and Merging
+
+- Branching and merging are fundamental ideas that are supported by all code management systems
+- A branch is an independent, stand-alone version that is created when a developer wishes to change a file
+- The changes made by developers in their own branchs may be merged to create a new shared branch
+- The repository ensures that branch files that have been changed cannot overwrite repository files without a merge operation
+    - If Alice or Bob make mistakes on the branch they are working on, they can easily revert to the main file
+    - If they commit changes, while working, they can revert to earlier versions of the work they have done; When they have finished and tested their code, they can then replace the main file by merging the work they have done with the main/master branch
 
 ## DevOps Automation
 
