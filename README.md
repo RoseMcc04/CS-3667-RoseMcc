@@ -9,3 +9,10 @@ Course Description: This course covers the design and implementation of software
 - Agile and Scrum
 - Software Requirements
 - Reliable Programming and Patterns
+- Testing
+- DevOps and Code Management
+- Software Architecture
+- Traditional Software Engineering
+- Cloud-Based Software
+- Microservices
+- Security and Privacy
