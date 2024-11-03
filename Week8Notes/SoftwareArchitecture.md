@@ -99,7 +99,26 @@
 
 ## Architectural Design Guidelines
 
+- **Implement Once**
+    - Avoid duplicating functionality at different places in your 
+    architecture 
+- **Separation of Concerns**
+    - Organize your architecture into components that focus on a single 
+    concern 
+- **Stable Interfaces**
+    - Design component interfaces that are coherent and change slowly 
+
 ## Component Organization
+
+- Abstraction in software design means that you focus on the essential 
+elements of a software or software component without concern for its 
+details
+- At the architectural level, your concern should be on large-scale 
+architectural components 
+- Decomposition involves analyzing these large-scale components and 
+representing them as a set of finer-grain components 
+- *Layered* models are often used to illustrate hwo a system is composed 
+of components 
 
 ### Architectural Model of a Document Retrieval System
 
