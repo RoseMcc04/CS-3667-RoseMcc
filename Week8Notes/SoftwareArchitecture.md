@@ -41,7 +41,7 @@
 ### What does the architecture include?
 
 - Overall organization (*what are the moving parts of your system?*)
-- Decomposition into components <ins>components</ins> (*how is your system broken into pieces?*)
+- Decomposition into <ins>components</ins> (*how is your system broken into pieces?*)
 - Server organization (*how is your system distributed across different machines?*)
 - Technologies that you use to build the software (*what is your technology stack?*)
 
@@ -67,11 +67,35 @@
 
 ## Why is architecture important?
 
+- The architecture of a system has fundamentals influence (often the main influence!) on the non-functional system properties
+- Architectural design involves understanding the issues that affect the architecture of your product and creating an architectural description that shows the critical components and their relationships
+- Minimizing complexity should be an important goal for architectural designers! (Complex == harder to change, harder to understand, more likely to have bugs)
+
 ## Issues that Influence Architectural Decisions
+
+- Nonfunctional product characteristics
+- Product lifetime
+- Software use
+- Number of users
+- Software compatability
 
 ## Non-Functional System Quality Attributes
 
+| Attribute      | Key Issue                                                                 |
+|----------------|---------------------------------------------------------------------------|
+| Responsiveness  | Does the system return results to users in a reasonable time?            |
+| Reliability     | Do the system features behave as expected by both developers and users?   |
+| Availability    | Can the system deliver its services when requested by users?              |
+| Security        | Does the system protect itself and users’ data from unauthorized attacks and intrusions? |
+| Usability       | Can system users access the features that they need and use them quickly and without errors? |
+| Maintainability | Can the system be readily updated and new features added without undue costs? |
+| Resilience      | Can the system continue to deliver user services in the event of partial failure or external attack? |
+
 ### Other Issues
+
+- Product lifetime: long-lived products will have multiple revisions, how well does the architecture accommodate this requirement?
+- Software reuse: reuse of existing software helps us deliver more quickly, but also constrains our choices
+- Number of users: what is the impact of having a large number of users, or a number that varies significantly?
 
 ## Architectural Design Guidelines
 
