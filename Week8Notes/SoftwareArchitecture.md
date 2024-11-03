@@ -122,7 +122,7 @@ of components
 
 ### Architectural Model of a Document Retrieval System
 
-![Document Retrieval System Model](https://www.researchgate.net/publication/221048623/figure/fig4/AS:668614445260802@1536421514187/Architecture-of-the-document-retrieval-system.png)
+![Document Retrieval System Model](https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/33252ce2ac645d06da936295686c45e6a1e4432b/3-Figure2-1.png)
 
 ## Design Guidelines and Layered Architectures
 
