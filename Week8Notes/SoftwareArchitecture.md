@@ -126,7 +126,23 @@ of components
 
 ## Design Guidelines and Layered Architectures
 
+- Each layer is an area of concern and its considered separately from other layers
+    - The top layer is concerned with user interaction, the next layer down with user interface management, the thid layer with information retrieval and so on
+- Within each layer, the components are independent and do not overlap in functionality
+    - The lower layers include components that provide general functionality so there is no need to replicate this in the components in a higher level
+- The architectural model is a high-level model that does not include implementation information
+    - Ideally, components at level X should only interdace with the APIs of the components in level X-1; That is, interactions should be between layers and not across layers
+- Why may this be challenging in practice?
+
 ## Cross-Cutting Concerns
+
+- Cross-cutting concerns are concerns that are systemic - they affect the whole system
+- In a layered architecture, cross-cutting concerns affect all layers in the system as well as the way in which people use the system
+- Cross-cutting concerns are completely different from the functional concerns represented by layers in a software architecture
+- Every layer has to take them into account and there are inevitably interactions between the layers because of these concerns
+- The existance of cross-cutting concerns is the reason why modifying a system after it has been designed to improve its security is often more difficult <br>
+
+![Cross Cutting Concerns Diagram](https://miro.medium.com/v2/resize:fit:568/0*7oVHDbVUsuXW4d5K.png)
 
 ## Distribution Architecture
 
