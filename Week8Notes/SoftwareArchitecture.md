@@ -146,11 +146,30 @@ of components
 
 ## Distribution Architecture
 
+- The distribution architecture of a software system defines the servers in the system and the allocation of components to these servers
+- Client-server architectures are a type of distribution architecture that is suited to applications where clients access a shared database and perform business logic applications on that data
+- In this architecture, the user interface is implemented on the user's own computer or mobile device
+    - Functionality is distributed between the client and one or more server computers
+
 ## Client-Server Architecture
+
+![Client-Server Architecture Model](https://media.geeksforgeeks.org/wp-content/uploads/20240419170238/Client-Server-Model.webp)
 
 ### Client-Server Communication
 
+- Client-server communication normally uses HTTP protocal
+    - Client uses a HTTP *verb* (e.g., GET, POST) along with a resource identifier (URL, technically a URI) that should be acted upon, additional info is in URI or separate, e.g., a POST form
+- HTTP is a text-only protocol so structured data has to be represented as text
+    - XML is a markup language with tags used to identify each data item (XML == "eXtensible Markup Language")
+    - JSON is a similar representation based on the representation of objects in the JavaScript language (JSON == "JavaScript Object Notation")
+
 ## Service-Oriented Architecture
+
+- Services in a service-oriented architecture are stateless components, which means that they can be replicated and can migrate from one computer to another
+- Many servers may be involved in providing services
+- A service-oriented architecture is usually easier to scale as demand increases and is resilient to failure <br>
+
+![Service-Oriented Architecture Diagram](https://umairsaeed.com/img/Paper-2023-Architecture-04-SOA-01w.png)
 
 ## Zooming Out: Architectural Styles
 
