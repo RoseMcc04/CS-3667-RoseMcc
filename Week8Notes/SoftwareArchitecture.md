@@ -173,9 +173,32 @@ of components
 
 ## Zooming Out: Architectural Styles
 
+- Introduced by Garlan and Shaw, 1994
+- Useful terminology
+    - Components: encountered this term above
+    - Connectors: interactions between components
+    - Constraints: limitations on how components and connectors can be combined
+- Paper view architectures as graphs (components == nodes, connectors == edges)
+
 ### Examples of Architectural Styles
 
+- Pipes and filters
+- Data abstraction and object-oriented organization
+- Event-based, implicit invocation
+- Layered
+- Repository
+- Also: client-server, state transition
+- Some newer: service-oriented
+
 ## Technology Choices
+
+| Technology          | Design Decision                                                                                     |
+|---------------------|-----------------------------------------------------------------------------------------------------|
+| Database            | Should you use a relational SQL database or an unstructured NoSQL database?                        |
+| Platform            | Should you deliver your product on a mobile app and/or a web platform?                            |
+| Server              | Should you use dedicated in-house servers or design your system to run on a public cloud? If a public cloud, should you use Amazon, Google, Microsoft, or some other option? |
+| Open Source         | Are there suitable open-source components that you could incorporate into your products?           |
+| Development Tools   | Do your development tools embed architectural assumptions about the software being developed that limit your architectural choices? |
 
 ## Database Options
 
