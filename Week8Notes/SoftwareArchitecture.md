@@ -202,10 +202,49 @@ of components
 
 ## Database Options
 
+- There are two kinds of databases that are now commonly used:
+    - Relational databases, where the data is organized into structured tables
+    - NoSQL databases, in which the data has a more flexible, user-defined organization
+- Relational databases, such as MySQL, are particularly suitable for situations where you need transaction management and the data structures are predictable and fairly simple
+- NoSQL databases, such as MongoDB, are more flexible and potentially more efficient than relational databases for data analysis
+    - NoSQL databases allow data to be organized hierarchically rather than as flat tables and this allows for more efficient concurrent processing of "big data"
+- Many other varietires of NoSQL databases, e.g., tuple stores, graph databases
+
 ## Delivery Platform
+
+- Delivery can be web-based or a mobile product or both
+- Mobile Issues:
+    - **Intermittent Connectivity**
+        - You must be able to provide a limited service without network connectivity
+    - **Processor Power**
+        - Mobile devices have less powerful processors, so you need to minimize computationally intensive platforms
+    - **Power Management**
+        - Mobile battery life is limited so you should try to minimize the power used by your application
+    - **On-Screen Keyboard**
+        - On-screen keyboards are slow and error-prone; You should minimize input using the screen keyboard to reduce user frustration
+- To deal with these differences, you usually need separate browser-based and mobile versions of your product's front-end
+    - You may need a completely different decomposition architecture in these different versions to ensure that performance and other characteristics are maintained
 
 ## Server
 
+- A key decision: design your system to run on customer services or to run on the cloud?
+- For consumer products that are not simply mobile apps, the author thinks it almost always makes sense to develop for the cloud
+- For business products, it is a more difficult decision
+    - Some businesses are concerned about cloud security and prefer to run their systems on in-hours servers; They may have a predictable pattern of system usage so there is less need to design your system to cope with large changes in demand
+- An important choice you have to make if you are running your software on the cloud is which cloud provider to use
+
 ## Open Source
 
+- Open source software is software that is available freely, which you can change and modify as you wish
+    - The advantage is that you can reuse rather than implement new software, which reduces development costs and time to market
+    - The disadvantages of using open-sourced software is that you are constrained by that software and have no control over its evolution
+- The decision on the use of open-source software also depends on the availability, maturity, and continuing support of open source components
+- Open source license issues may impose constraints on how you use the software
+- Your choice of open source software should depend on the type of product that you are developing, your target market, and the expertise of your development team
+
 ## Development Tools
+
+- Development technologies, such as a mobile development toolkit or a web application framework, influence the architecture of your software
+    - These technologies have built-in assumptions about system architectures and you have to conform to these assumptions to use the development system
+- The development technology that you use may also have an indirect influence on the system architecture
+    - Developers usually favor architectural choices that use familiar technologies that they understand; For instance, if your team has a lot of experience with relational databases, they may argue for this instead of a NoSQL database
