@@ -34,9 +34,37 @@
 
 ### Terminology
 
+- **Class**
+    - a template for building objects
+        - Concrete classes cans be used to create objects
+        - Abstract classes are useful abstractions, but do not 
+        directly represent real-world objects
+        - *Examples: Person, Student, Instructor*
+- **Attribute**
+    - a piece of information related to the class (called 
+    attributes, fields, or properties in various languages)
+- **Operation**
+    - actions that perform some sort of functionality (called 
+    functions or methods in most languages)
+
 ### Relationships
 
+- **Generalization** 
+    - also known as inheritance, `is-a` oe `a-kind-of` relationships *(e.g., a Dog is an Animal, a Dog is a kind of Animal)*
+- **Aggregation**
+    - represents parts of wholes or assemblies, `a-part-of` or `has-parts` *(e.g., an Engine is a part of a Car)*
+- **Association**
+    - weaker link between two classes, not an aggregation because each part is its own thing *(e.g., a Patient is associated with an Appointment)*
+- One rule of thumb: does the item make sense without the item it is associated to?
+
 ### Finding Classes
+
+- **Textual analysis**
+    - examine use-case diagrams, use-case descriptions, looking for classes, attributes, operations, and relationships
+- **Brainstorming**
+- **Common object lists**
+    - *(lists of objects commonly found in specific domains)*
+- **Patterns**
 
 ## Textual Analysis Guidelines
 
