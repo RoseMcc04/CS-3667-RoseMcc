@@ -134,7 +134,7 @@
     - Represents the actions or functions that a class can perform
     - Can be classified as a constructor, query, or update operation 
     - Includes parentheses that may contain parameters or information needed to perform the operation <br>
-![Operation Example](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJZPU6U1htZ51YIILksRf9Zrv1vMtR_H8Xtw&s)
+![Operation Example](https://cdn-images.visual-paradigm.com/guide/uml/uml-class-diagram-tutorial/03-class-notation-with-examples.png)
 <br>
 
 ### Relationships
@@ -170,6 +170,7 @@
 - *Example: each student, in each course, will have a grade, Grade class provides a place for this* <br>
 ![Association Classes Example](https://www.researchgate.net/publication/225111515/figure/fig5/AS:669054335471624@1536526392526/UML-diagram-for-association-class.png)
 <br>
+
 ### Sample Aggregations
 
 - Logical relationship 
