@@ -68,13 +68,44 @@
 
 ## Textual Analysis Guidelines
 
+- A common or improper noun implies a class of objects 
+- A proper noun or direct reference implies an instance of a class 
+- A collective noun implies a class of objects made up of groups of instances of another class 
+- An adjective implies an attribute of an object 
+- A doing verb implies an operation 
+- A being verb implies a classification relationship between an object and its class 
+- A having verb implies an aggregation or association relationship 
+- A transitive verb implies an operation 
+- An intransitive verb implies an exception 
+- A predicate or descriptive verb phrase implies an operation 
+= An adverb implies an attribute of a relationship or operation 
+
 ## CRC Cards
+
+- CRC (Class - Responsibility - Collaboration) cards document classes and their relationships 
+- Also provide a good way for checking current class definitions, making sure you are not missing anything 
 
 ### Responsibilities, Collaborations
 
+- **Knowing responsibilities**
+    - what things is the class responsible for knowing?
+- **Doing responsibilities**
+    - what things is the class responsible for doing? 
+- **Collaborations**
+    - how do instances of different classes collaborate/interoperate to accomplish some task 
+
 ### Checking Class Definitions
 
+- Get team members to pretend they are instances of each card/class, try to solve tasks 
+- Ask questions of each team member 
+    - *Who or what are you?*
+    - *What do you know?*
+    - *What can you do?*
+- Role-play through each scenario, see where you get stuckL this is something that is not already modeled as part of the class that you may need 
+
 ### Example
+
+![CRC Card Diagram](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR15bEQelPXwmvBrDBQ7vLxwxaKvY7hsOCs8w&s)
 
 ## UML Class Diagrams
 
