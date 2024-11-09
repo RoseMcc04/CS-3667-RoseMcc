@@ -130,6 +130,7 @@
     - Can be derived from other attributes, shown by placing a slash before the attribute's name <br>
 ![Attribute Example](https://cdn-images.visual-paradigm.com/guide/uml/uml-class-diagram-tutorial/04-class-attributes-with-different-visibility.png)
 <br>
+
 - **An operation:**
     - Represents the actions or functions that a class can perform
     - Can be classified as a constructor, query, or update operation 
