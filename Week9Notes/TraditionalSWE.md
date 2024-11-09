@@ -125,7 +125,7 @@
 ### Attributes and Operations
 
 - Properties (either stored or derived), or actions/functions that can be performed
-- **An attribute:**
+- **An attribute:**  
     - Represents properties that describe the state of an object 
     - Can be derived from other attributes, shown by placing a slash before the attribute's name <br>
 ![Attribute Example](https://cdn-images.visual-paradigm.com/guide/uml/uml-class-diagram-tutorial/04-class-attributes-with-different-visibility.png)
