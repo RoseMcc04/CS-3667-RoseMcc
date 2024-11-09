@@ -134,6 +134,7 @@
     - Represents the actions or functions that a class can perform
     - Can be classified as a constructor, query, or update operation 
     - Includes parentheses that may contain parameters or information needed to perform the operation <br>
+
 ![Operation Example](https://cdn-images.visual-paradigm.com/guide/uml/uml-class-diagram-tutorial/03-class-notation-with-examples.png)
 <br>
 
@@ -168,7 +169,7 @@
 - Allow information about an association to be stored 
 - Very common, actually quite rare to have a true many to many relationship without such a class 
 - *Example: each student, in each course, will have a grade, Grade class provides a place for this* <br>
-![Association Classes Example](https://www.researchgate.net/publication/225111515/figure/fig5/AS:669054335471624@1536526392526/UML-diagram-for-association-class.png)
+![Association Classes Example](https://www.researchgate.net/publication/243692015/figure/fig3/AS:667660601815045@1536194100533/An-example-of-the-association-notation-in-UML-class-diagrams.png)
 <br>
 
 ### Sample Aggregations
@@ -190,14 +191,39 @@
 
 ## Behavioral Diagrams
 
+- Sequence diagrams 
+- Communication diagrams 
+- State machine diagrams 
+- CRUDE matrices 
+
 ### Sequence Diagrams
 
+- Used to illustrate how actors and objects communicate in specific user-case scenarios
+- Considered an "interaction" diagram - focused specifically on interactions 
+- Requirements: we keep this high-level, can also used in design with objects representing lower-level entities *(e.g., specfic database classes)* 
+
 #### Example
+
+![Sequence Diagram Example](https://i.sstatic.net/RTchP.png)
 
 ### Communication Diagrams
 
+- Another "interaction" diagram - showing how different parts of the system interact 
+- Higher-level than sequence diagrams, shows possible interactions between actors and objects, does not limit these to specific scenarios 
+- Good at showing dependencies between objects, how objects exchange messages (method calls) 
+
 #### Example
+
+![Communication Diagram Example](https://webusupload.apowersoft.info/gitmind/wp-content/uploads/2021/07/web-store-communication-diagram.jpg)
 
 ### State Machine Diagrams
 
+- Used to model the state of a system/object that maintains state through various operations that can change this state 
+- These are often objects that represent real-world systems, such as hardware systems or real-life processes 
+- States represent the different states (values of attributes, potentials for behavior) that the object can be in 
+- Transitions allow for movement between states 
+- Events trigger transitions 
+
 #### Example
+
+![State Machine Diagram Example](https://agilemodeling.com/wp-content/uploads/2023/04/stateMachineSeminarComplete.jpg)
