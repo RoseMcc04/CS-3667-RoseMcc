@@ -45,7 +45,7 @@
 - **Elasticity**
     - related to scalability, allows for scaling up or down
 - **Resilience**
-    - you can design your software architecture to tolerate server failuures
+    - you can design your software architecture to tolerate server failures
 
 ## Virtual Cloud Servers
 
@@ -70,11 +70,36 @@
 
 ### Docker
 
+- Containers became a mainstream technology around 2015, but they had been developed earlier
+- Open-source Docker project provided a standard means of container management that is fast and easy to use
+- Docker is a container management system that allows users to define the software to be included in a container as a Docker image
+- It also includes a run-time system that can create and manage containers using these Docker images
+
 ### Elements of Docker Container System
+
+| Element         | Function                                                                                                                                                                                                                                  |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Docker daemon   | This is a process that runs on a host server and is used to set up, start, stop, and monitor containers, as well as building and managing local images.                                            |
+| Docker client   | This software is used by developers and system managers to define and control containers.                                                                                                          |
+| Dockerfiles     | Dockerfiles define runnable applications (images) as a series of setup commands that specify the software to be included in a container. Each container must be defined by an associated Dockerfile. |
+| Image           | A Dockerfile is interpreted to create a Docker image, which is a set of directories with the specified software and data installed in the right places. Images are set up to be runnable Docker applications. |
+| Docker hub      | This is a registry of images that has been created. These may be reused to set up containers or as a starting point for defining new images.                                                       |
+| Containers      | Containers are executing images. An image is loaded into a container, and the application defined by the image starts execution. Containers may be moved from server to server without modification and replicated across many servers. You can make changes to a Docker container (e.g., by modifying files) but must commit these changes to create a new image. |
 
 #### Docker Images
 
+- Docker images are directories that can be archived, shared, and run on different Docker hosts; Everything that is needed to run a software system - binaries, libraries, system tools, etc., is included in the directory
+- A Docker image is a base layer, usually taken from the Docker registry, with your own software and data added as a layer on top of this
+    - The layered model means that updating Docker applications is fast and efficient; Each update to the filesystem is a layer on top of the existing system
+    - To change an application, all you have to do is to ship the changes that you have made to its image, often just a small number of files
+
 ### Benefits of Containers
+
+- They solve the problem of software dependencies; You do not have to worry about the libraries and other software on the application server being different from those on your development server
+    - Instead of shipping your product as stand-alone software, you can ship a container that includes all of the support software that your product needs
+- They provide a mechanism for software portability across different clouds; Docker containers can run on any system or cloud provider where the Docker daemon is available
+- They provide an efficient mechanism for implementing software services and so support the development of service-oriented architectures
+- They simplify the adoption of DevOps due to easier infrastructure management
 
 ## Types of Cloud Services
 
