@@ -23,9 +23,29 @@
 
 ## The Cloud
 
+- The Cloud == "computing as a utility"
+- Made up of a very large number of remote virtual servers and other computing resourcesl, offered for rent
+- You can rent as many servers as you need, run your software on these servers, and make them available to your customers
+- Cloud is "elastic", can scale up or down as needed
+- You may rent a server and install your own software, or you may pay for access to software products that are available on the cloud 
+
 ## Benefits for Software Development
 
+| Factor                | Benefit                                                                                           |
+|-----------------------|---------------------------------------------------------------------------------------------------|
+| Cost                  | You avoid the initial capital costs of hardware procurement.                                      |
+| Startup time          | You don’t have to wait for hardware to be delivered before you can start work. Using the cloud, you can have servers up and running in a few minutes. |
+| Server choice         | If you find that the servers you are renting are not powerful enough, you can upgrade to more powerful systems. You can add servers for short-term requirements, such as load testing. |
+| Distributed development | If you have a distributed development team working from different locations, all team members have the same development environment and can seamlessly share all information. |
+
 ## Scalability, Elasticity, and Resilience
+
+- **Scalability**
+    - ability of your software to cope with increasing numbers of users
+- **Elasticity**
+    - related to scalability, allows for scaling up or down
+- **Resilience**
+    - you can design your software architecture to tolerate server failuures
 
 ## Virtual Cloud Servers
 
