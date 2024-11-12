@@ -49,7 +49,24 @@
 
 ## Virtual Cloud Servers
 
+- A virtual server runs on an underlying physical computer and is made up of an operating system plus a set of software packages that provide the server the functionality required
+- **Virtual Server**
+    - a stand-alone system that can run on any hardware in the cloud
+        - This "run anywhere" characteristic is possible because the virtual server has no external dependencies
+- Virtual machines (VMs), running on physical server hardware, can be used to implement virtual servers
+    - A hypervisor provides the hardware emulation that simulates the operation of the underlying hardware
+- Generally, a single physical server could host multiple virtual servers, and a virtual server could be running on different physical servers at different points in time
+- *Example: Google cloud platform, this is Compute Engine*
+
 ### Container-Based Virtualization
+
+- If you are running a cloud-based system with many instances of applications or services, you may be able to use a simpler virtualization technology called *containers*
+- Using containers accelerates the process of deploying virtual servers on the cloud
+    - Containers are usually megabytes (MBs) in size whereas VMS are usually gigabytes (GBs)
+    - Containers can be started and shut down in a few seconds rather than the few minutes required for a VM
+- Containers are an operating system virtualization technology that allows independent servers to share a single operating system
+    - They are particularly useful for providing isolated application services where each user sees their own version of an application
+- *Most common example: Docker*
 
 ### Docker
 
