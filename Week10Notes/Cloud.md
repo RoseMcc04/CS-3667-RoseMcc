@@ -103,11 +103,35 @@
 
 ## Types of Cloud Services
 
+- **Infrastructure as a Service (IaaS)**
+    - Cloud providers offer different kinds of infrastructure service such as a compute service, a network service, and a storage service that you can use to implement virtual servers
+- **Platform as a Service (PaaS)**
+    - This is an intermediate level where you use libraries and frameworks provided by the cloud provider to implement your software; These provide access to a range of functions including SQL and NoSQL databases
+- **Software as a Service (SaaS)**
+    - Your software product runs on the cloud and is accessed by users through a browser or mobile app
+
 ### Software as a Service (SaaS)
 
 #### Benefits of SaaS for Product Providers
 
+| Benefit              | Explanation                                                                                                                                                                                                                                       |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Cash flow            | Customers either pay a regular subscription or pay as they use the software. This provides a regular cash flow with payments throughout the year, avoiding large cash injections only at purchase times and minimal income between releases.       |
+| Update management    | You control product updates, so all customers receive the update simultaneously. This avoids the need to maintain multiple versions, reducing costs and simplifying maintenance of a consistent software code base.                              |
+| Continuous deployment | You can deploy new versions of your software as soon as changes are made and tested, allowing quick bug fixes and continuous improvement in software reliability.                                                                                  |
+| Payment flexibility  | Offering multiple payment options attracts a broader customer range, as small companies or individuals can avoid large upfront costs, making the software more accessible.                                                                       |
+| Try before you buy   | Early free or low-cost versions can be provided for customer feedback on bugs and potential improvements, enhancing the product based on real user input.                                                                                         |
+| Data collection      | You can easily gather data on product usage to identify improvement areas and may also collect customer data for marketing other products to these users.                                                                                        |
+
 #### Customizations for SaaS
+
+| Customization     | Business Need                                                                                                                                                                                         |
+|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Authentication    | Businesses may want users to authenticate using their business credentials rather than the account credentials set up by the software provider (see chapter 7 for more details).                      |
+| Branding          | Businesses may want a user interface that is branded to reflect their own organization.                                                                                                               |
+| Business rules    | Businesses may want to be able to define their own business rules and workflows that apply to their own data.                                                                                         |
+| Data schemas      | Businesses may want to be able to extend the standard data model used in the system database to meet their own business needs.                                                                        |
+| Access control    | Businesses may want to be able to define their own access control model that specifies the data that specific users or user groups can access and the allowed operations on that data.                |
 
 ## Scalability and Resilience
 
