@@ -135,8 +135,34 @@
 
 ## Scalability and Resilience
 
+- The scalability of a system reflects its ability to adapt automatically to changes in the load on that system
+- The resilience of a system reflects its ability to continue to deliver critical services in the event of system failure or malicious system use
+- You achieve scalability in a system by making it possible to add new virtual servers (scaling-out) or increase the power of a system server (scaling-up) in response to increasing load
+    - In cloud-based systems, scaling-out rather than scaling-up is the normal approach used; Your software has to be organized so that individual software components can be replicated and run in parallel
+- To achieve resilience, you need to be able to restart your software quickly after a hardware or software failure
+
 ### Resilience
+
+- Resilience relies on redundancy:
+    - Replicas of the software and data are managed in different locations
+    - Database updates are mirrored so that the standby database is a working copy of the operational database
+    - A system monitor continually checks the system status; It can switch to the standby system automatically if the operational system fails
+- You should use redundant virtual servers that are not hosted on the same physical computer and locate servers in different locations
+    - Ideally, these servers should be located in different data centers
+    - If a physical server fails or if there is a wider data center failure, then operation can be switched automatically to the software copies elsewhere
 
 ## System Structure
 
+- An object-oriented approach to software engineering has been that extensively used for the development of client-server sustems built around a shared database
+- The system itself is, logically, a monolithic system with distribution across multiple servers running large software components; The traditional multi-tier client-server architecture is based on this distributed system model
+- The alternative to a monolithic approach to software organization is a service-oriented approach where the system is decomposed into fine-grain, stateless services
+    - Because it is stateless, each service is independent and can be replicated, distributed, and migrated from one server to another
+    - The service-oriented approacj is particularly suitable for cloud-based software, with services deployed in containers
+
 ## Cloud Platforms
+
+- Cloud platforms include general-purpose clouds such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform
+- Lesser known platforms oriented around a specific application exist, such as the SAP Cloud Platform
+- There are also smaller national providers that provide more limited services but who may be more willing to adapt their services to the needs of different customers
+- There is no "best" platform and you should choose a cloud provider based on your background and experience, the type of product that you are developing and the expectations of your customers
+- You need to consider both technical issues and business issues when choosing a cloud platform for your product
