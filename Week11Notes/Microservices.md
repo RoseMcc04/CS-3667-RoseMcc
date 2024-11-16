@@ -12,7 +12,7 @@
     4. [Microservice Communication](#microservice-communication)
     5. [Cohesion and Coupling](#cohesion-and-coupling)
     6. [Single Responibility Principle](#single-responsibility-principle)
-3. [Microservices Architecture](#microservices-architecture)
+3. [Microservices Architecture](#microservices-architecture-1)
     1. [Benefits of Microservices Architecture](#benefits-of-microservices-architecture)
     2. [*Example - Photo-Printing System for Mobile Devices*](#example---photo-printing-system-for-mobile-devices)
     3. [Key Design Questions](#key-design-questions)
@@ -51,17 +51,56 @@
 
 ## Microservices
 
+- **Microservice**
+    - *small-scale, stateless* service that has a single responsibility
+- They are completely independent with their own database and UI management code
+- Microservices are not an entire application - applications are created by combining microservices
+- Software products that use microservices have a *microservices architecture*
+
 ### *Example - System Authentification Features*
+
+- User registration, where users provide information about their identity, security information, mobile (cell) phone number, and email address
+- Authentification using UID/password
+- Two-factor authentification using code sent to mobile phone
+- User information management *e.g. change password or mobile phone number*
+- Reset forgotten password
 
 ### *Example - Authentification Microservices*
 
+![Authentification Microservice Exampe](https://i.sstatic.net/ZFeNK.png)
+
 ### Characteristics of Microservices
+
+| **Characteristic**            | **Explanation**                                                                                                                                  |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| `Self-contained`                 | Microservices do not have external dependencies. They manage their own data and implement their own user interface.                             |
+| `Lightweight`                    | Microservices communicate using lightweight protocols, so that service communication overheads are low.                                          |
+| `Implementation independent`    | Microservices may be implemented using different programming languages and may use different technologies (e.g., different types of database) in their implementation. |
+| `Independently Deployable`      | Each microservice runs in its own process and is independently deployable, using automated systems.                                            |
+| `Business-oriented`              | Microservices should implement business capabilities and needs, rather than simply provide a technical service.                                 |
 
 ### Microservice Communication
 
+- Microservices communicate by <ins>exchanging messages</ins>
+- A message that is sent between services includes some administrative information, a service request, and the data required to deliver the requested service
+- Services return a response to service request messages
+    - An authentification service may send a message to a login service that includes the name input by the user
+    - The response may be a token associated with a valid username or might be an error saying that there is no registered user
+
 ### Cohesion and Coupling
 
+- A well-designed microservice should have *high cohesion* and *low coupling*
+- **Cohesion**
+    - a measure of the number of relationships that parts of a component have with each other
+- **Coupling**
+    - a measure of the number of relationships that one component has with other components in the system
+- Why do we want high cohesion? Why do we want how coupling? What does this mean?
+
 ### Single Responsibility Principle
+
+- Each microservice should only have a single responsibility, *i.e., it should do one thing only, and it should do it well*
+- Challenge: how do we define "one thing only" in a general way? Can we?
+- *Note: responsibility does not always mean a single, functional activity - it could be based around related activities that do not make sense being separated, or around shared data*
 
 ## Microservices Architecture
 
