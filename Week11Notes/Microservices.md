@@ -37,7 +37,17 @@
 
 ## Software Services
 
+- **Software Service**
+    - a software component that can be accessed from remote computers over the internet; *Given an input*, a service produces a corresponding outpit, *without side effects*
+- *Given an input*: service accessed through defined interface, implementation details hidden (abstraction!)
+- *Without side effects*: services <ins>do not</ins> maintain internal state, state stored outside the service 
+
 ### Modern Web Services
+
+- After various experiments in the 1990s with service-oriented computing, the idea of "big" Web Services emerged in the early 2000s
+- Based on XML-based protocols and standards, e.g., SOAP for service interaction ![SOAP Interaction](https://www.w3.org/TR/soap/), WSDL for interface description ![WSDL Interface Description](https://www.w3.org/TR/wsdl/)
+- Heavy-weight, very general protocols - most services do not need anything this complex (but many nice tools work with these, so do not disregard them completely!)
+- Modern service-oriented systems tend towards lighter-weight solution, we will focus on those
 
 ## Microservices
 
