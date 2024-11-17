@@ -45,7 +45,7 @@
 ### Modern Web Services
 
 - After various experiments in the 1990s with service-oriented computing, the idea of "big" Web Services emerged in the early 2000s
-- Based on XML-based protocols and standards, e.g., SOAP for service interaction ![SOAP Interaction](https://www.w3.org/TR/soap/), WSDL for interface description ![WSDL Interface Description](https://www.w3.org/TR/wsdl/)
+- Based on XML-based protocols and standards, e.g., SOAP for service interaction [SOAP Interaction](https://www.w3.org/TR/soap/), WSDL for interface description [WSDL Interface Description](https://www.w3.org/TR/wsdl/)
 - Heavy-weight, very general protocols - most services do not need anything this complex (but many nice tools work with these, so do not disregard them completely!)
 - Modern service-oriented systems tend towards lighter-weight solution, we will focus on those
 
@@ -104,11 +104,35 @@
 
 ## Microservices Architecture
 
+- A microservices architecture is an *architectural style* - a tried and tested way of implementing a logical software architecture (layered, pipe, filter, etc.)
+- This architectural style addresses two problems with monolithic applications:
+    - The whole system has to be rebuilt, re-tested, and re-deployed when any change is made; This can be a slow process as changes to one part of the system can adversely affect other components 
+    - As the demand on the system increases, the whole system has to be scaled, even if the demand is localized to a small number of system components that implement the most popular system functions 
+
 ### Benefits of Microservices Architecture
+
+- Microservices are self-contained and run in separate processes 
+- In cloud-based systems, each microservice may be deployed in its own container; This means a microservice can be stopped and restarted without affecting other parts of the system 
+- If the demand on a service increases, service replicas can be quickly created and deployed; These do not require a more powerful server so "scaling-out" is, typically, much cheaper than "scaling up"
 
 ### *Example - Photo-Printing System for Mobile Devices*
 
+- **Scenario**:
+    - Imagine that you are developing a photo-printing service for mobile devices. 
+- **Description**:
+    - Users can upload photos to your server from their phone or specify photos from their Instagram account that they would like to be printed; Prints can be made at different sizes and on different media
+- **Application**
+    - Users can choose a print size and choose medium. *For instance, they may decide to print a picture onto a mug or a t-shirt; The prints or other media are prepared and then posted to their home; They pay for prints either using a payment service such as **Android** or **Apply Pay** or by registering a credit card with the printing service provider* 
+
+![Microservice Architecture Example](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTjOk-UIoO5QjM9zmMp2DvXqCB2HSLkSBkIi0tuwnMO384p46qC)
+
 ### Key Design Questions
+
+- *What are the microservices that make up the system?*
+- *How should microservices communicate with each other?*
+- *How should service failure be detected, reported, and managed?*
+- *How should the microservices in the system be coordinated?*
+- *How should data be distributed and shared?*
 
 ## Decomposition Guidelines
 
