@@ -34,6 +34,7 @@
     9. [*Example - GET Request and Associated Response*](#example---get-request-and-associated-response)
 8. [Service Deployment Overview](#service-deployment-overview)
     1. [Automating Deployment: High-Level](#automating-deployment-high-level)
+    2. [Deployment Automation Steps](#deployment-automation-steps)
 
 ## Software Services
 
@@ -136,15 +137,44 @@
 
 ## Decomposition Guidelines
 
+- Balance fine-grain functionality and system performance
+    - Single-function services mean that changes are limited to fewer services but require service communications to implement user functionality; This slows down a system because of the need for each service to bundle and unbundle messages sent from other services 
+- Follow the *Common Closure Principle*
+    - Elements of a system that are likely to be changed at the same time should be located within the same service; Most new and changed requirements should therefore only affect a single service 
+- Associate services with business capabilities
+    - A business capability is a discrete area of business functionality that is the responsibility of an individual or group; You should identify the services that are required to support each business capability 
+- Design services so that they only have access to the data that they need 
+    - If there is an overlap between the data used by different services, you need a mechanism to propogate data changes to all services using the same data 
+
 ## Service Communications
+
+- When you are designing a microservices architecture, you have to establish a standard for communications that all microservices should follow 
+- Key decisions: 
+    - *Should service interaction be synchronous or asynchronous?*
+    - *Should services communicate directly or via message broker middleware?*
+    - *What protocol should be used for messages exchanged between services?*
 
 ### Synchronous and Asynchronous Microservice Interaction
 
+![Microservice Interaction Diagram](https://miro.medium.com/v2/resize:fit:1400/0*BlOCAJi8PokbfCLh.png)
+
 ### Direct and Indirect Service Communication
+
+![Direct/Indirect Service Communication Diagram](https://images.doclify.net/gleek-web/d/61f05c34-d61b-435c-93cf-0432bf59a371.png?w=1200&format=webp) <br>
+- Direct service communication requires that interacting services know each other's address 
+- The services interact by sending requests directly to those addresses 
+- Indirect communication involves naming the services that is required and sending that request to a message broker (sometimes called a message bus) 
+- The message broker is then responsible for finding the service that can fulfull the service request 
 
 ## Microservice Data Design
 
+- You should isolate data within each system service with as little data sharing as possible 
+- If data sharing is unavoidable, you should design microservices so that most sharing is read-only, with a minimal number of services responsible for data updates 
+- If services are replicated in your system, you must include a mechanism that can keep the database copies used by replica services consistent 
+
 ### Service Coordination: Orchestration and Choreography
+
+![Service Coordination Diagram](https://alok-mishra.com/wp-content/uploads/2022/07/orchestration-or-choreography.png)
 
 ## RESTful Services
 
@@ -168,5 +198,18 @@
 
 ## Service Deployment Overview
 
+- When a system is composed of tens or even hundreds of microservices, deployment of teh system is more complex than for monolithic systems 
+- The service development teams decide which programming language, database, libraries, and other support software should be used to implement their service; Consequently, there is no standard deployment configuration for all services 
+- It is not normal practice for microservice development teams to be responsible for deployment and service management as well as software development and to use continuous deployment 
+- Continuous deployment means that as soon as a change to a service has been made and validated, the modified service is redeployed 
+
 ### Automating Deployment: High-Level
 
+- Continuous deployment depends on automation so that as soon as a change is committed, a series of automated activities is triggered to test the software 
+- If the software passes these tests, it then enters another automation pipeline that packages and deploys the software 
+
+### Deployment Automation Steps 
+
+- The deployment of a new service starts with the programmer committing the code changes to a code management system such as Git 
+- This triggers a set of automated tests that run using a modified service; If all service tests run successfully, a new version of the system that incorporates the changed service is created 
+- Another set of automated system tests are then executed; If these run successfully, the service is ready for deployment 
