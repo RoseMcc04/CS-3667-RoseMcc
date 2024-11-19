@@ -187,7 +187,7 @@ WHERE State = '" + selectedState + "'
 
 ### Access Control Lists
 
-- Access control lists (ACLs) are used in most file and databasee systems to implement access control policies 
+- Access control lists (ACLs) are used in most file and database systems to implement access control policies 
 - ACLs are tables that link users with resources and specify what those users are permitted to do 
 - If access control lists are based on individual permissions, then thesed can become very large; However, you can deamatically cut their size by allocating users to groups ("roles"), and then assigning permissions to the group (RBAC, "role-based access group")
 ![Access Control List Diagram](https://www.imperva.com/learn/wp-content/uploads/sites/13/2020/02/access-control-list.jpg)
@@ -216,10 +216,42 @@ WHERE State = '" + selectedState + "'
 
 ## Privacy 
 
+- **Privacy**
+    - a social concept that relates to the collection, dissemination, and appropriate use of personal information held by a third-party 
+- Importance of privacy has changed over time and individuals have their own views on what degree of privacy is important 
+- Culture and age affect peoples' views on what privacy means: 
+    - Younger people were early adopters of the first social networks and many of them seem to be less inhibited about sharing personal information on these platforms than older people 
+    - In some countries, the level of income earned by an individual is seen as a private matter; in others, all tax returns are openly published 
+
 ### Business Reasons for Privacy 
+
+- If you are offering a product directly to consumers and you fail to conform to privacy regulations, then you may be subject to legal action by product buyers or by a data regulator 
+- If your conformance is weaker than the protection offered by data protection regulations in some countries, you will not be able to sell your product in these countries 
+- [*Example: The GDPR*](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)
+- If your product is a business product, business customers require privacy safeguards so that they are not put at risk of privacy violations and legal action by users 
+- If personal information is leaked or misused, even if this is not seen as a violation of privacy regulations, this can lead to serious reputational damage that may cost you customers 
 
 ### Data Protection Laws 
 
+- In many countries, the right to individual privacy is protected by data protection laws 
+- These laws limit the collection, dissemination, and use of personal data to the purposes for which it was collected 
+    - *Example: A travel insurance company may collect health information so that they can access their level of risk; This is legal and permissable*
+    - *Counter-Example: It would not be legal for those companies to use this information to target online advertising of health products, unless their users had given specific permission for this*
+
 ### Data Protection Principles 
 
+| Data protection principle | Explanation                                                                                                                                               |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Awareness and control     | Users of your product must be made aware of what data are collected when they are using your product, and must have control over the personal information that you collect from them. |
+| Purpose                   | You must tell users why data are being collected and you must not use those data for other purposes.                                                        |
+| Consent                   | You must always have the consent of a user before you disclose their data to other people.                                                                  |
+| Data lifetime             | You must not keep data for longer than you need to. If a user deletes an account, you must delete the personal data associated with that account.            |
+| Secure storage            | You must maintain data securely so that it cannot be tampered with or disclosed to unauthorized people.                                                   |
+| Discovery and error correction | You must allow users to find out what personal data you store. You must provide a way for users to correct errors in their personal data.            |
+| Location                  | You must not store data in countries where weaker data protection laws apply unless there is an explicit agreement that the stronger data protection rules will be upheld. |
+
 ### Creating a Privacy Policy 
+
+- You should establish a privacy policy that defines how personal and sensitive information about users is collected, stored and managed
+- Software products use data in different ways, so your privacy policy has to define the personal data that you will collect and how you will use that data
+- Product users should be able to review your privacy policy and change their preferences regarding the information that you store
