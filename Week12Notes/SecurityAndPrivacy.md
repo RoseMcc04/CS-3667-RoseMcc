@@ -13,9 +13,9 @@
     6. [Actions to Reduce Likelihood of Hacking](#actions-to-reduce-likelihood-of-hacking)
     7. [Denial of Service (DOS) Attacks](#denial-of-service-dos-attacks)
     8. [Brute Force Attacks](#brute-force-attacks)
-3. [Authentification](#authentification)
-    1. [Authentification Approaches ("Factors")](#authentification-approaches-factors)
-    2. [Authentification Methods](#authentification-methods)
+3. [Authentication](#authentication)
+    1. [Authentication Approaches ("Factors")](#authentication-approaches-factors)
+    2. [Authentication Methods](#authentication-methods)
     3. [Password-Only Weaknesses](#password-only-weaknesses)
     4. [Federated Identity](#federated-identity)
 4. [Authorization](#authorization)
@@ -25,7 +25,7 @@
     1. [Encryption and Decryption](#encryption-and-decryption)
     2. [Symmetric Encryption](#symmetric-encryption)
     3. [Asymmetric Encryption](#asymmetric-encryption)
-    4. [Encryption and Authentification](#encryption-and-authentification)
+    4. [Encryption and authentication](#encryption-and-authentication)
     5. [TLS and Digital Certificates](#tls-and-digital-certificates)
     6. [Parts of a Digital Certificate](#parts-of-a-digital-certificate)
     7. [TLS in Action](#tls-in-action)
@@ -96,7 +96,7 @@ WHERE State = '" + selectedState + "'
 - **Session hijacking**
     - a type of attack where an attacker gets a valid session cookie and uses this to impersonate a legitimate user
 - When a user authenticates themselves with a web application, a session is created
-    - A session is a time period during which the user's authentification is valid
+    - A session is a time period during which the user's authentication is valid
     - During this time, they do not have to re-authenticate
     - Tracked by placing a session cookie on the user's device
 
@@ -120,7 +120,7 @@ WHERE State = '" + selectedState + "'
 - DDOS attacks are the most common type of DOS attacks
     - Thesr involve distributed computers, that have usually been hijacked as part of a botnet, sending hundreds of thousands of requests for service to a web application; There are so many service requests that legitimate users are denied access
 - Other type of DOS attacks target application users
-    - User lockout attacks take advantage of a common authentification policy that locks out a user after a number of failed authentification attempts; Their aim is to lock users out rather than gain access and so deny the service to these users
+    - User lockout attacks take advantage of a common authentication policy that locks out a user after a number of failed authentication attempts; Their aim is to lock users out rather than gain access and so deny the service to these users
     - Users often use their email addresses as their login name so if an attacker has access to a database of email addresses, he or she can try to login using these addresses
 - If you do not lock accounts after failed validation, then attackers can use brute-force attacks on your system; If you do, you may deny access to legitimate users
 
@@ -132,21 +132,65 @@ WHERE State = '" + selectedState + "'
 - Simple attack: generate strings, try common passwords
 - Brute force attacks rely on users setting weak passwords, so you can circumvent them by insisting that users set long passwords that are not in a dictionary and are not common words
 
-## Authentification
+## Authentication
 
-### Authentification Approaches ("Factors")
+- Authentication is the process of ensuring that a user of your system is who they claim to be 
+- You need authentication in all software products that maintain user information, so that only the providers of that information can access and change it 
+- You also use authentication to learn about your users so that you can personalize their experience of using your product 
 
-### Authentification Methods 
+### Authentication Approaches ("Factors")
+
+![Authentication Approaches Example](data:image/png;base64,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)
+
+### Authentication Methods 
+
+- **Knowledge-based authentication**
+    - user provides secret, personal information when they reguster with the system; Each time they log on, the system asks for this information 
+- **Possession-based authentication**
+    - relies on the user having a physical device that can generate or display information that is known to the authenticating system; The user inputs this information to confirm that they possess the authenticating device 
+- **Attribute-based authentication**
+    - Based on a unique biometric attribute of the user, such as a fingerprint or retinal scan, which is registered with the system 
+- **Multi-factor authentication**
+    - combines previous approaches and requires users to use more than one authentication method 
 
 ### Password-Only Weaknesses...
 
+| Weakness             | Explanation                                                                                                                                               |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Insecure passwords   | Users choose passwords that are easy to remember. However, it is also easy for attackers to guess or generate these passwords, using either a dictionary or a brute force attack. |
+| Phishing attacks     | Users click on an email link that points to a fake site that tries to collect their login and password details.                                               |
+| Password reuse       | Users use the same password for several sites. If there is a security breach at one of these sites, attackers then have passwords that they can try on other sites. |
+| Forgotten passwords  | Users regularly forget their passwords, so you need to set up a password recovery mechanism to allow these to be reset. This can be a vulnerability if users' credentials have been stolen and attackers use that mechanism to reset their passwords. |
+
 ### Federated Identity
+
+- **Federated identity**
+    - use an external "group" authentication service, not a local login 
+- *Examples: login using Google, Facebook, or LinkedIn credentials*
+- *Local example: using Appalachian State University credentials*
+- Advantage: user has fewer passwords to remember, authentication providers can be "hardened" against attack <br>
+![Federated Identity Example: Azure Architecture](https://learn.microsoft.com/en-us/azure/architecture/patterns/_images/federated-identity-overview.png)
 
 ## Authorization
 
+- **Authorization**
+    - compleentary to authentication, controls access to specific resources *(e.g., you could share a document so someone can edit, but not share or delete it)*
+- Authorization rules are generally defined using an *access control policy*
+- This policy is a set of rules that define what information (data and programs) is controlled, who has access to that information, and the type of access that is allowed 
+
 ### Access Control Policies
 
+- Explicit access control policies are important for both legal and technical reasons 
+    - Data protectuon rules limit the access to the personal data; This must be reflected in the defined access control policy; If this policy is incomplete or does not conform to the data protection rules, then there may be subsequent legal action in the event of a data breach 
+    - Technically, an access control policy can be a starting point for setting up the access control scheme for a system 
+    - *Example: If the access control policy defines the access rights of students, then when new students are registered, they all get these rights by default*
+
 ### Access Control Lists
+
+- Access control lists (ACLs) are used in most file and databasee systems to implement access control policies 
+- ACLs are tables that link users with resources and specify what those users are permitted to do 
+- If access control lists are based on individual permissions, then thesed can become very large; However, you can deamatically cut their size by allocating users to groups ("roles"), and then assigning permissions to the group (RBAC, "role-based access group")
+![Access Control List Diagram](https://www.imperva.com/learn/wp-content/uploads/sites/13/2020/02/access-control-list.jpg)
 
 ## Encryption
 
@@ -156,7 +200,7 @@ WHERE State = '" + selectedState + "'
 
 ### Asymmetric Encryption 
 
-### Encryption and Authentification 
+### Encryption and Authentication 
 
 ### TLS and Digital Certificates
 
