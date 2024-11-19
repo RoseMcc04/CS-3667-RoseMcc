@@ -194,25 +194,84 @@ WHERE State = '" + selectedState + "'
 
 ## Encryption
 
+- Encryption is the process of making a document unreadable by applying an algorithmic transformation to it 
+- Modern encryption techniques are such that you can encrypt data so that it is practically uncrackable using currently available technology 
+- However, history has demonstrated that apparently strong encryption may be hackable when new technology becomes available 
+- If commercial quantum systems become available, we will have to use a completely different approach to encryption on the Internet 
+
 ### Encryption and Decryption
+
+![Encryption and Decryption Diagram](https://programmerprodigy.code.blog/wp-content/uploads/2020/04/bfafa-iu.png)
 
 ### Symmetric Encryption
 
+- In a symmetric encryption scheme, the same encryption key is used for encoding and decoding the information that is to be kept secret 
+- If Alice and Bob wish to exchange a secret message, both must have a copy of this encryption key; Alice encrypts the message with this key; When Bob receives the message, he decodes it using the same key to read its contents 
+- The fundamental problem with a symmetric encryption scheme is securely sharing the encryption key 
+- If Alice simply sends the key to Bob, an attacker may intercept the message and gain access to the key; The attacker can then decode all future secret communications 
+
 ### Asymmetric Encryption 
+
+- Asymmetric encryption does not require secret keys to be shared 
+- An asymmetric encryption scheme uses different keys for encrypting and decrypting messages 
+- Each user has a public and a private key; Messages ma be encrypted using either key but can only be decrypted using the other key 
+- Public keys may be published and shared by the key owner; Anyone can access and use a public key 
+- However, messages can only be decrypted by the user's private key so it is only readable by the intended recipient  
 
 ### Encryption and Authentication 
 
+- Asymmetric encryption can also be used to authenticate the sender of a message by encrypting it with a private key and decrypting it with the corresponding public key 
+    - Say Alice wants to send a message to Bob and she has a copy of his public key 
+    - However, she is not sure whether or not the public key that she has to Bob is correct and she is concerned that the message may be sent to the wrong person 
+    - Private/public key encryption can be used to verify Bob;s identity -- Bob uses his private key to encrypt a message and sends this to Alice; If it can be decrypted using Bob's public key, then Alice has the correct key 
+    - Generally called "signing" the message 
+
 ### TLS and Digital Certificates
+
+- The https protocol is a standard protocol for securely exchanging texts on the web; It is the standard http protocol plus an encryption layer called TLS (Transport Layer Security); This encryption layer is used for two things: 
+    - To verify the identiti of the web server 
+    - To encrypt communications so that they cannot be read by an attacker who intercepts the messages between the client and the server 
+- TLS encryption depends on a digital certificate that is sent from the web server to the client 
+    - Digital certificates are issued by a certificate authority (CA), which is a trusted identity verification service 
+    - The CA encrypts the information in the certificate using their private key to create a unique signature; This signature is included in the certificate along with the public key of the CA; To check that the certificate is valid, you can decrypt the signature using the CA's public key 
+- [A good free option](https://letsencrypt.org/)
+- [To check your server](https://www.ssllabs.com/ssltest/)
 
 ### Parts of a Digital Certificate 
 
+| Certificate element         | Explanation                                                                                                                                          |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Subject information         | Information about the company or individual whose website is being visited. Applicants apply for a digital certificate from a certificate authority who checks that the applicant is a valid organization. |
+| Certificate authority information | Information about the certificate authority (CA) who has issued the certificate.                                                                 |
+| Certificate information     | Information about the certificate itself, including a unique serial number and a validity period, defined by start and end dates.                     |
+| Digital signature           | The combination of all of the above data uniquely identifies the digital certificate. The signature data are encrypted with the CA’s private key to confirm that the data are correct. The algorithm used to generate the digital signature is also specified. |
+| Public key information      | The public key of the CA is included along with the key size and the encryption algorithm used. The public key may be used to decrypt the digital signature. |
+
 ### TLS in Action 
+
+![TLS in Action Example](https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/2_mutual-tls-tutorial.jpg)
 
 ### Data Encryption 
 
+- As a product provider, you inevitably store information about your users, and, for cloud-based products, user data 
+- Encryption can be used to reduce the damage that may occur from data theft; If information is encrypted, it is impossible, or very expensive, for thieves to access and use the unencrypted data 
+
 ### When/Where to Encrypt 
 
+- Data in transit: encrypted when moving data from one computer to another - over the web, using https vs. http (now becoming default - e.g., iOS apps need special permissions to make http calls)
+- Data at rest: if data is not being used, then the files where the data is stored should be encrypted so that theft of these files will not lead to disclosure of confidential information 
+- Data in use: generally not done here, except for initial encryption/decryption, since this is slow 
+
 ### What to Encrypt 
+
+- **Application**
+    - The application decides what data should be encrypted and decrypts that data immediately before it is used 
+- **Database**
+    - The DBMS may encrypt the entire database when it is closed, with the database decrypted with it is reopened; Alternatively, individual tables or columns may be encrypted/decrypted 
+- **Files**
+    - The operating system encrypts individual files when they are closed and decrypts them when they are reopened 
+- **Media**
+    - The operating system encrypts disks when they are unmounted and decrypts these disks when they are remounted 
 
 ## Privacy 
 
