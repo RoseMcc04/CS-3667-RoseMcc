@@ -16,3 +16,6 @@ Course Description: This course covers the design and implementation of software
 - Cloud-Based Software
 - Microservices
 - Security and Privacy
+- Team Project
+
+*I will soon add a forked repository of my team project as a link so people can see the application of all that I have learned. :3
